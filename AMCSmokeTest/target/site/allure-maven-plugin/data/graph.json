@@ -1,0 +1,36 @@
+{
+  "testCases" : [ {
+    "uid" : "768f3e97fb47a3b",
+    "name" : "WOPHierarchyCreationTest",
+    "title" : "WOPHierarchyCreationTest",
+    "time" : {
+      "start" : 1556711176119,
+      "stop" : 1556711176156,
+      "duration" : 37
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "172c5cb2b5c5e4e3",
+    "name" : "MPHierarchyCreationTest",
+    "title" : "MPHierarchyCreationTest",
+    "time" : {
+      "start" : 1556711176161,
+      "stop" : 1556711176164,
+      "duration" : 3
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "be8f58ef1498371d",
+    "name" : "MediatorHierarchyCreationTest",
+    "title" : "MediatorHierarchyCreationTest",
+    "time" : {
+      "start" : 1556711176165,
+      "stop" : 1556711176168,
+      "duration" : 3
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

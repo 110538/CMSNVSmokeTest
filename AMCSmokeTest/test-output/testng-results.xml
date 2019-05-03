@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4120" started-at="2019-05-03T05:51:12Z" finished-at="2019-05-03T05:51:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4120" started-at="2019-05-03T05:51:12Z" finished-at="2019-05-03T05:51:16Z">
+      <class name="com.runner.test.TestEvents">
+        <test-method status="PASS" signature="puhingRecords()[pri:0, instance:com.runner.test.TestEvents@19bb07ed]" name="puhingRecords" is-config="true" duration-ms="207844" started-at="2019-05-03T11:17:44Z" finished-at="2019-05-03T11:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- puhingRecords -->
+        <test-method status="PASS" signature="connectESBDatabaseTest()[pri:0, instance:com.runner.test.TestEvents@19bb07ed]" name="connectESBDatabaseTest" is-config="true" duration-ms="3981" started-at="2019-05-03T11:21:12Z" finished-at="2019-05-03T11:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectESBDatabaseTest -->
+        <test-method status="PASS" signature="WOPHierarchyCreationTest()[pri:0, instance:com.runner.test.TestEvents@19bb07ed]" name="WOPHierarchyCreationTest" duration-ms="16" started-at="2019-05-03T11:21:16Z" finished-at="2019-05-03T11:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WOPHierarchyCreationTest -->
+        <test-method status="PASS" signature="MPHierarchyCreationTest()[pri:0, instance:com.runner.test.TestEvents@19bb07ed]" name="MPHierarchyCreationTest" duration-ms="2" started-at="2019-05-03T11:21:16Z" finished-at="2019-05-03T11:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MPHierarchyCreationTest -->
+        <test-method status="PASS" signature="MediatorHierarchyCreationTest()[pri:0, instance:com.runner.test.TestEvents@19bb07ed]" name="MediatorHierarchyCreationTest" duration-ms="5" started-at="2019-05-03T11:21:16Z" finished-at="2019-05-03T11:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MediatorHierarchyCreationTest -->
+        <test-method status="PASS" signature="closingbrowser()[pri:0, instance:com.runner.test.TestEvents@19bb07ed]" name="closingbrowser" is-config="true" duration-ms="412" started-at="2019-05-03T11:21:17Z" finished-at="2019-05-03T11:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- com.runner.test.TestEvents -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
