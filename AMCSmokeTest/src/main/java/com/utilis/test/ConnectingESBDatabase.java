@@ -27,7 +27,7 @@ public class ConnectingESBDatabase extends CMSTestBase {
 			
 			String rowdata =  CMSTestBase.ActualEvents.get(i);
 
-			if(rowdata.contains(ExpectedEvents) && (!rowdata.contains("Exception")) &&!rowdata.contains(".ACK") ) {
+			if(rowdata.contains(ExpectedEvents) && !rowdata.contains("Exception") &&!rowdata.contains(".ACK") ) {
 				
 				flag = false;
 				
@@ -54,7 +54,7 @@ public class ConnectingESBDatabase extends CMSTestBase {
 				} 
 				
 
-			}else if (rowdata.contains(ExpectedEvents) && (!rowdata.contains("Exception")) && rowdata.contains(".ACK")){
+			}else if (rowdata.contains(ExpectedEvents) && !rowdata.contains("Exception") && rowdata.contains(".ACK")){
 				
 				flag = false;
 				

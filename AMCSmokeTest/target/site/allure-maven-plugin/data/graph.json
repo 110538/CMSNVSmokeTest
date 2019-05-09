@@ -1,34 +1,12 @@
 {
   "testCases" : [ {
-    "uid" : "66d23aae93e53e55",
-    "name" : "WOPHierarchyCreationTest",
-    "title" : "WOPHierarchyCreationTest",
+    "uid" : "e5de06222def8041",
+    "name" : "simpleTest",
+    "title" : "Simple test",
     "time" : {
-      "start" : 1557214855330,
-      "stop" : 1557214855330,
-      "duration" : 0
-    },
-    "severity" : "NORMAL",
-    "status" : "PASSED"
-  }, {
-    "uid" : "211560c47105977b",
-    "name" : "MPHierarchyCreationTest",
-    "title" : "MPHierarchyCreationTest",
-    "time" : {
-      "start" : 1557214855346,
-      "stop" : 1557214855346,
-      "duration" : 0
-    },
-    "severity" : "NORMAL",
-    "status" : "PASSED"
-  }, {
-    "uid" : "9b4df0598772643a",
-    "name" : "MediatorHierarchyCreationTest",
-    "title" : "MediatorHierarchyCreationTest",
-    "time" : {
-      "start" : 1557214855346,
-      "stop" : 1557214855346,
-      "duration" : 0
+      "start" : 1557402411968,
+      "stop" : 1557402413552,
+      "duration" : 1584
     },
     "severity" : "NORMAL",
     "status" : "PASSED"

@@ -1,44 +1,54 @@
 {
-  "hash" : "f0f9583e3b2974a632a09536fa6cd0de93829600",
-  "data" : [ {
-    "name" : "defects",
-    "type" : "DEFECTS",
-    "data" : [ {
-      "count" : 0,
-      "message" : "There are no defects!",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "name" : "xunit",
-    "type" : "TITLE_STATISTICS",
-    "data" : [ {
-      "title" : "Suite : Test",
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
       "statistic" : {
-        "total" : 3,
-        "passed" : 3,
+        "total" : 1,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
+      },
+      "time" : {
+        "start" : 1557402411968,
+        "stop" : 1557402413552,
+        "duration" : 1584
       }
-    } ]
-  }, {
-    "name" : "behaviors",
-    "type" : "TITLE_STATISTICS",
-    "data" : [ {
-      "title" : "CMSNV SMOKE",
-      "statistic" : {
-        "total" : 3,
-        "passed" : 3,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    } ]
-  }, {
-    "name" : "environment",
-    "type" : "KEY_VALUE",
-    "data" : [ ]
-  } ]
+    },
+    "defects" : {
+      "totalCount" : 0,
+      "items" : [ ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "281018ffdfa2a2d3",
+        "title" : "Suite : Test",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Without feature",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
 }
