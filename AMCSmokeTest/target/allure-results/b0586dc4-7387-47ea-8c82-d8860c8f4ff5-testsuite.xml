@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1557214850751" stop="1557214855361" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : Test</name>
+    <title>Suite : Test</title>
+    <test-cases>
+        <test-case start="1557214855330" stop="1557214855330" status="passed">
+            <name>WOPHierarchyCreationTest</name>
+            <title>WOPHierarchyCreationTest</title>
+            <steps>
+                <step start="1557214664728" stop="1557214664729" status="passed">
+                    <name>logStep[Accepted Welcome screen]</name>
+                    <title>Accepted Welcome screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214665332" stop="1557214665332" status="passed">
+                    <name>logStep[Selected detectReceiver]</name>
+                    <title>Selected detectReceiver</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214666619" stop="1557214666619" status="passed">
+                    <name>logStep[Closed the Citrix Launcher]</name>
+                    <title>Closed the Citrix Launcher</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214666697" stop="1557214666697" status="passed">
+                    <name>logStep[Closed the Citrix Launcher]</name>
+                    <title>Closed the Citrix Launcher</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214666698" stop="1557214666698" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214668787" stop="1557214668787" status="passed">
+                    <name>logStep[Entered the AMC Credentials]</name>
+                    <title>Entered the AMC Credentials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214669917" stop="1557214669917" status="passed">
+                    <name>logStep[Selected the all apps button]</name>
+                    <title>Selected the all apps button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214669991" stop="1557214669991" status="passed">
+                    <name>logStep[Clicked on the CMS test application]</name>
+                    <title>Clicked on the CMS test application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214672794" stop="1557214672794" status="passed">
+                    <name>logStep[Selected the CMS file]</name>
+                    <title>Selected the CMS file</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214706206" stop="1557214706206" status="passed">
+                    <name>logStep[Entered the CMS credntials]</name>
+                    <title>Entered the CMS credntials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214710628" stop="1557214710628" status="passed">
+                    <name>logStep[Clicked the title verion button]</name>
+                    <title>Clicked the title verion button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214710629" stop="1557214710629" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214719371" stop="1557214719371" status="passed">
+                    <name>logStep[FDID reading from excel sheet]</name>
+                    <title>FDID reading from excel sheet</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214719372" stop="1557214719372" status="passed">
+                    <name>logStep[Entered FDID]</name>
+                    <title>Entered FDID</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214720870" stop="1557214720870" status="passed">
+                    <name>logStep[Accepted the title record]</name>
+                    <title>Accepted the title record</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214725958" stop="1557214725958" status="passed">
+                    <name>logStep[Navigated to data migration tab]</name>
+                    <title>Navigated to data migration tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214727214" stop="1557214727214" status="passed">
+                    <name>logStep[Pushed the record]</name>
+                    <title>Pushed the record</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214729652" stop="1557214729652" status="passed">
+                    <name>logStep[Accepted the migration request]</name>
+                    <title>Accepted the migration request</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214782077" stop="1557214782077" status="passed">
+                    <name>logStep[Selected the main menu in cms file maker]</name>
+                    <title>Selected the main menu in cms file maker</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214783440" stop="1557214783440" status="passed">
+                    <name>logStep[Quit the file maker]</name>
+                    <title>Quit the file maker</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214785863" stop="1557214785864" status="passed">
+                    <name>logStep[Acckonwledged the file maker ]</name>
+                    <title>Acckonwledged the file maker </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214786914" stop="1557214786914" status="passed">
+                    <name>logStep[Closed the file maker]</name>
+                    <title>Closed the file maker</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214790746" stop="1557214790746" status="passed">
+                    <name>logStep[Closed the file maker main window]</name>
+                    <title>Closed the file maker main window</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214790748" stop="1557214790748" status="passed">
+                    <name>logStep[Waiting some time before fecching ESB events ]</name>
+                    <title>Waiting some time before fecching ESB events </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214850751" stop="1557214850751" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214850817" stop="1557214850817" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214850886" stop="1557214850886" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214851364" stop="1557214851364" status="passed">
+                    <name>logStep[Driver Loaded]</name>
+                    <title>Driver Loaded</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214853701" stop="1557214853701" status="passed">
+                    <name>logStep[Connected to the Database..]</name>
+                    <title>Connected to the Database..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214855292" stop="1557214855292" status="passed">
+                    <name>logStep[Query executed successfully]</name>
+                    <title>Query executed successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="ESB Hierachry"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="9408@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1557214855346" stop="1557214855346" status="passed">
+            <name>MPHierarchyCreationTest</name>
+            <title>MPHierarchyCreationTest</title>
+            <steps>
+                <step start="1557214855346" stop="1557214855346" status="passed">
+                    <name>logStep[Expected :AMCN.EVENT.WOP.MP.PRODUCT.DATA]</name>
+                    <title>Expected :AMCN.EVENT.WOP.MP.PRODUCT.DATA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214855346" stop="1557214855346" status="passed">
+                    <name>logStep[Actual :AMCN.EVENT.WOP.MP.PRODUCT.DATA]</name>
+                    <title>Actual :AMCN.EVENT.WOP.MP.PRODUCT.DATA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="ESB Hierachry"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="9408@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1557214855346" stop="1557214855346" status="passed">
+            <name>MediatorHierarchyCreationTest</name>
+            <title>MediatorHierarchyCreationTest</title>
+            <steps>
+                <step start="1557214855346" stop="1557214855346" status="passed">
+                    <name>logStep[Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]</name>
+                    <title>Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1557214855346" stop="1557214855346" status="passed">
+                    <name>logStep[Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]</name>
+                    <title>Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="ESB Hierachry"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="9408@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

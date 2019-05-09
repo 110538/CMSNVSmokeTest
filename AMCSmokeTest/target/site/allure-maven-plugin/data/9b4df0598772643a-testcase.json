@@ -1,11 +1,11 @@
 {
-  "uid" : "172c5cb2b5c5e4e3",
-  "name" : "MPHierarchyCreationTest",
-  "title" : "MPHierarchyCreationTest",
+  "uid" : "9b4df0598772643a",
+  "name" : "MediatorHierarchyCreationTest",
+  "title" : "MediatorHierarchyCreationTest",
   "time" : {
-    "start" : 1556711176161,
-    "stop" : 1556711176164,
-    "duration" : 3
+    "start" : 1557214855346,
+    "stop" : 1557214855346,
+    "duration" : 0
   },
   "summary" : {
     "attachments" : 0,
@@ -17,16 +17,16 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "5ff55fa9915501dd",
+    "uid" : "675ed45453b7d132",
     "name" : "Suite : Test",
     "title" : "Suite : Test"
   },
   "steps" : [ {
-    "name" : "logStep[Expected :AMCN.EVENT.WOP.MP.PRODUCT.DATA]",
-    "title" : "Expected :AMCN.EVENT.WOP.MP.PRODUCT.DATA",
+    "name" : "logStep[Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]",
+    "title" : "Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER",
     "time" : {
-      "start" : 1556711176162,
-      "stop" : 1556711176162,
+      "start" : 1557214855346,
+      "stop" : 1557214855346,
       "duration" : 0
     },
     "summary" : {
@@ -37,12 +37,12 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "logStep[Actual :AMCN.EVENT.WOP.MP.PRODUCT.DATA]",
-    "title" : "Actual :AMCN.EVENT.WOP.MP.PRODUCT.DATA",
+    "name" : "logStep[Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]",
+    "title" : "Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER",
     "time" : {
-      "start" : 1556711176163,
-      "stop" : 1556711176164,
-      "duration" : 1
+      "start" : 1557214855346,
+      "stop" : 1557214855346,
+      "duration" : 0
     },
     "summary" : {
       "attachments" : 0,
@@ -65,7 +65,7 @@
     "value" : "MONO-HYD-LAP-41"
   }, {
     "name" : "thread",
-    "value" : "17204@MONO-HYD-LAP-41.main(1)"
+    "value" : "9408@MONO-HYD-LAP-41.main(1)"
   }, {
     "name" : "suite-name",
     "value" : "Suite : Test"

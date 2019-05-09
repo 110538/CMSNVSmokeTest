@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1556713387227" stop="1556713394360" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
-    <name>Default suite : Default test</name>
-    <title>Default suite : Default test</title>
+<ns2:test-suite start="1557236669141" stop="1557236684258" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : Test</name>
+    <title>Suite : Test</title>
     <test-cases>
-        <test-case start="1556713394188" stop="1556713394192" status="passed">
+        <test-case start="1557236681826" stop="1557236681828" status="passed">
             <name>WOPHierarchyCreationTest</name>
             <title>WOPHierarchyCreationTest</title>
             <steps/>
@@ -12,10 +12,10 @@
                 <label name="story" value="ESB Hierachry"/>
                 <label name="feature" value="CMSNV SMOKE"/>
                 <label name="host" value="MONO-HYD-LAP-41"/>
-                <label name="thread" value="15044@MONO-HYD-LAP-41.main(1)"/>
+                <label name="thread" value="4572@MONO-HYD-LAP-41.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1556713394188" stop="1556713394192" status="passed">
+        <test-case start="1557236681826" stop="1557236681828" status="passed">
             <name>WOPHierarchyCreationTest</name>
             <title>WOPHierarchyCreationTest</title>
             <steps/>
@@ -24,10 +24,10 @@
                 <label name="story" value="ESB Hierachry"/>
                 <label name="feature" value="CMSNV SMOKE"/>
                 <label name="host" value="MONO-HYD-LAP-41"/>
-                <label name="thread" value="15044@MONO-HYD-LAP-41.main(1)"/>
+                <label name="thread" value="4572@MONO-HYD-LAP-41.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1556713394303" stop="1556713394304" status="passed">
+        <test-case start="1557236683358" stop="1557236683359" status="passed">
             <name>MPHierarchyCreationTest</name>
             <title>MPHierarchyCreationTest</title>
             <steps/>
@@ -36,10 +36,10 @@
                 <label name="story" value="ESB Hierachry"/>
                 <label name="feature" value="CMSNV SMOKE"/>
                 <label name="host" value="MONO-HYD-LAP-41"/>
-                <label name="thread" value="15044@MONO-HYD-LAP-41.main(1)"/>
+                <label name="thread" value="4572@MONO-HYD-LAP-41.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1556713394303" stop="1556713394304" status="passed">
+        <test-case start="1557236683358" stop="1557236683359" status="passed">
             <name>MPHierarchyCreationTest</name>
             <title>MPHierarchyCreationTest</title>
             <steps/>
@@ -48,10 +48,10 @@
                 <label name="story" value="ESB Hierachry"/>
                 <label name="feature" value="CMSNV SMOKE"/>
                 <label name="host" value="MONO-HYD-LAP-41"/>
-                <label name="thread" value="15044@MONO-HYD-LAP-41.main(1)"/>
+                <label name="thread" value="4572@MONO-HYD-LAP-41.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1556713394309" stop="1556713394309" status="passed">
+        <test-case start="1557236683795" stop="1557236683795" status="passed">
             <name>MediatorHierarchyCreationTest</name>
             <title>MediatorHierarchyCreationTest</title>
             <steps/>
@@ -60,10 +60,10 @@
                 <label name="story" value="ESB Hierachry"/>
                 <label name="feature" value="CMSNV SMOKE"/>
                 <label name="host" value="MONO-HYD-LAP-41"/>
-                <label name="thread" value="15044@MONO-HYD-LAP-41.main(1)"/>
+                <label name="thread" value="4572@MONO-HYD-LAP-41.main(1)"/>
             </labels>
         </test-case>
-        <test-case start="1556713394309" stop="1556713394309" status="passed">
+        <test-case start="1557236683795" stop="1557236683795" status="passed">
             <name>MediatorHierarchyCreationTest</name>
             <title>MediatorHierarchyCreationTest</title>
             <steps/>
@@ -72,7 +72,7 @@
                 <label name="story" value="ESB Hierachry"/>
                 <label name="feature" value="CMSNV SMOKE"/>
                 <label name="host" value="MONO-HYD-LAP-41"/>
-                <label name="thread" value="15044@MONO-HYD-LAP-41.main(1)"/>
+                <label name="thread" value="4572@MONO-HYD-LAP-41.main(1)"/>
             </labels>
         </test-case>
     </test-cases>

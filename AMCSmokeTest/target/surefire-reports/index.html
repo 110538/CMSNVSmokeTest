@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\chaitanya\eclipse-workspace\com.amccms.test\testng.xml</span>
+                    <span>C:\Users\chaitanya\eclipse-workspace\AMCSmokeTest\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -158,7 +158,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\chaitanya\eclipse-workspace\com.amccms.test\testng.xml</span>
+            <span class="header-content">C:\Users\chaitanya\eclipse-workspace\AMCSmokeTest\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -209,22 +209,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'WOPHierarchyCreationTest')
+data.setCell(0, 1, 'MPHierarchyCreationTest')
 data.setCell(0, 2, 'com.runner.test.TestEvents')
-data.setCell(0, 3, 44);
+data.setCell(0, 3, 16);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'MPHierarchyCreationTest')
+data.setCell(1, 1, 'WOPHierarchyCreationTest')
 data.setCell(1, 2, 'com.runner.test.TestEvents')
-data.setCell(1, 3, 4);
+data.setCell(1, 3, 16);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'MediatorHierarchyCreationTest')
 data.setCell(2, 2, 'com.runner.test.TestEvents')
-data.setCell(2, 3, 3);
+data.setCell(2, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 51 ms</span>
+              <span class="suite-total-time">Total running time: 32 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -251,22 +251,30 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.runner.test.TestEvents</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">puhingRecords</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">connectESBDatabaseTest</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">201983 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">WOPHierarchyCreationTest</span>
-                <span class="method-start">11498 ms</span>
+                <span class="method-start">206546 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">MPHierarchyCreationTest</span>
-                <span class="method-start">11555 ms</span>
+                <span class="method-start">206562 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">MediatorHierarchyCreationTest</span>
-                <span class="method-start">11560 ms</span>
+                <span class="method-start">206578 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">closingbrowser</span>
+                <span class="method-start">206941 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

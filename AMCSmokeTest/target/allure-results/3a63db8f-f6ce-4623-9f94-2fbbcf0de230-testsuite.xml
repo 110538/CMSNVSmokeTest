@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1557227925562" stop="1557227936264" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : Test</name>
+    <title>Suite : Test</title>
+    <test-cases>
+        <test-case start="1557227936179" stop="1557227936179" status="passed">
+            <name>WOPHierarchyCreationTest</name>
+            <title>WOPHierarchyCreationTest</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="ESB Hierachry"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="10788@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1557227936179" stop="1557227936179" status="passed">
+            <name>WOPHierarchyCreationTest</name>
+            <title>WOPHierarchyCreationTest</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="ESB Hierachry"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="10788@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1557227936217" stop="1557227936217" status="passed">
+            <name>MPHierarchyCreationTest</name>
+            <title>MPHierarchyCreationTest</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="ESB Hierachry"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="10788@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1557227936217" stop="1557227936217" status="passed">
+            <name>MPHierarchyCreationTest</name>
+            <title>MPHierarchyCreationTest</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="ESB Hierachry"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="10788@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1557227936232" stop="1557227936232" status="passed">
+            <name>MediatorHierarchyCreationTest</name>
+            <title>MediatorHierarchyCreationTest</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="ESB Hierachry"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="10788@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1557227936232" stop="1557227936232" status="passed">
+            <name>MediatorHierarchyCreationTest</name>
+            <title>MediatorHierarchyCreationTest</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="ESB Hierachry"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="10788@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

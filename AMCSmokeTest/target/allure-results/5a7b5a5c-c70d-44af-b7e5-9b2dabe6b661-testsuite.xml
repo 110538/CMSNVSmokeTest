@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1556713614346" stop="1556713614347" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
-    <name>Default suite : Default test</name>
-    <title>Default suite : Default test</title>
+<ns2:test-suite start="1557231441876" stop="1557231441876" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : Test</name>
+    <title>Suite : Test</title>
     <test-cases>
-        <test-case start="1556713614347" stop="1556713614347" status="canceled">
+        <test-case start="1557231441876" stop="1557231441876" status="canceled">
             <name>closingbrowser</name>
             <description>@AfterSuite</description>
             <failure>
@@ -31,7 +31,7 @@
             <attachments/>
             <labels>
                 <label name="host" value="MONO-HYD-LAP-41"/>
-                <label name="thread" value="16148@MONO-HYD-LAP-41.main(1)"/>
+                <label name="thread" value="20112@MONO-HYD-LAP-41.main(1)"/>
             </labels>
         </test-case>
     </test-cases>

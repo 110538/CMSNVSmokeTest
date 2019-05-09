@@ -1,0 +1,7 @@
+workSpaceExcelPath=\\ExcelFile
+testRailURL=https://amcnetworks.testrail.io
+testRailUserName=Chaitanya.Sunkara@amcnetworks.com
+testRailPassword=Welcome@123
+TestExecutionFileName=API_inputs.xlsx
+TestRailExcelFile=API_inputs.xlsx
+testRailRunID=920

@@ -19,39 +19,21 @@ public class TestEvents extends CMSTestBase {
 	@BeforeTest()
 
 	public void connectESBDatabaseTest() throws Throwable {
-
+		
 		ceb.connectESBDatabase();
-
 	}
 
-	@SuppressWarnings("unused")
+	
 	@Features("CMSNV SMOKE")
 	@Stories("ESB Hierachry")
 	@Test(priority = 1)
 	@Title("WOPHierarchyCreationTest")
 	public void WOPHierarchyCreationTest() throws Exception {
 
-		test: try {
-
-			ceb.hierarchyCreation("WOP.updateProductVersion");
-
-			if (ceb.eventType.equalsIgnoreCase("event not found")) {
-
-				ceb.hierarchyCreation("WOP.createProductXRefMedia");
-
-				logger("=======WOP Create Hierachry is available in ESB==========");
-
-			} else {
-
-				logger("=========WOP Update Hierachry is available in ESB============");
-			}
-
-		} catch (Exception e) {
-
-			System.out.println(e.getMessage());
-
-		}
-
+		 ceb.hierarchyCreation("AMCN.EVENT.WOP.CREATE.VERSIONS");
+		 
+		 logger("WOP Hierachry is available in ESB");
+		
 	}
 
 	@Features("CMSNV SMOKE")

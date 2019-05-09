@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4120" started-at="2019-05-03T05:51:12Z" finished-at="2019-05-03T05:51:16Z">
+  <suite name="Suite" duration-ms="5639" started-at="2019-05-09T05:44:02Z" finished-at="2019-05-09T05:44:08Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4120" started-at="2019-05-03T05:51:12Z" finished-at="2019-05-03T05:51:16Z">
+    <test name="Test" duration-ms="5639" started-at="2019-05-09T05:44:02Z" finished-at="2019-05-09T05:44:08Z">
       <class name="com.runner.test.TestEvents">
-        <test-method status="PASS" signature="puhingRecords()[pri:0, instance:com.runner.test.TestEvents@19bb07ed]" name="puhingRecords" is-config="true" duration-ms="207844" started-at="2019-05-03T11:17:44Z" finished-at="2019-05-03T11:21:12Z">
+        <test-method status="PASS" signature="puhingRecords()[pri:0, instance:com.runner.test.TestEvents@27508c5d]" name="puhingRecords" is-config="true" duration-ms="212522" started-at="2019-05-09T11:10:29Z" finished-at="2019-05-09T11:14:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- puhingRecords -->
-        <test-method status="PASS" signature="connectESBDatabaseTest()[pri:0, instance:com.runner.test.TestEvents@19bb07ed]" name="connectESBDatabaseTest" is-config="true" duration-ms="3981" started-at="2019-05-03T11:21:12Z" finished-at="2019-05-03T11:21:16Z">
+        <test-method status="PASS" signature="connectESBDatabaseTest()[pri:0, instance:com.runner.test.TestEvents@27508c5d]" name="connectESBDatabaseTest" is-config="true" duration-ms="2663" started-at="2019-05-09T11:14:02Z" finished-at="2019-05-09T11:14:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectESBDatabaseTest -->
-        <test-method status="PASS" signature="WOPHierarchyCreationTest()[pri:0, instance:com.runner.test.TestEvents@19bb07ed]" name="WOPHierarchyCreationTest" duration-ms="16" started-at="2019-05-03T11:21:16Z" finished-at="2019-05-03T11:21:16Z">
+        <test-method status="PASS" signature="WOPHierarchyCreationTest()[pri:0, instance:com.runner.test.TestEvents@27508c5d]" name="WOPHierarchyCreationTest" duration-ms="24" started-at="2019-05-09T11:14:05Z" finished-at="2019-05-09T11:14:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WOPHierarchyCreationTest -->
-        <test-method status="PASS" signature="MPHierarchyCreationTest()[pri:0, instance:com.runner.test.TestEvents@19bb07ed]" name="MPHierarchyCreationTest" duration-ms="2" started-at="2019-05-03T11:21:16Z" finished-at="2019-05-03T11:21:16Z">
+        <test-method status="PASS" signature="MPHierarchyCreationTest()[pri:0, instance:com.runner.test.TestEvents@27508c5d]" name="MPHierarchyCreationTest" duration-ms="13" started-at="2019-05-09T11:14:06Z" finished-at="2019-05-09T11:14:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MPHierarchyCreationTest -->
-        <test-method status="PASS" signature="MediatorHierarchyCreationTest()[pri:0, instance:com.runner.test.TestEvents@19bb07ed]" name="MediatorHierarchyCreationTest" duration-ms="5" started-at="2019-05-03T11:21:16Z" finished-at="2019-05-03T11:21:16Z">
+        <test-method status="PASS" signature="MediatorHierarchyCreationTest()[pri:0, instance:com.runner.test.TestEvents@27508c5d]" name="MediatorHierarchyCreationTest" duration-ms="0" started-at="2019-05-09T11:14:07Z" finished-at="2019-05-09T11:14:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MediatorHierarchyCreationTest -->
-        <test-method status="PASS" signature="closingbrowser()[pri:0, instance:com.runner.test.TestEvents@19bb07ed]" name="closingbrowser" is-config="true" duration-ms="412" started-at="2019-05-03T11:21:17Z" finished-at="2019-05-03T11:21:17Z">
+        <test-method status="PASS" signature="closingbrowser()[pri:0, instance:com.runner.test.TestEvents@27508c5d]" name="closingbrowser" is-config="true" duration-ms="313" started-at="2019-05-09T11:14:08Z" finished-at="2019-05-09T11:14:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingbrowser -->

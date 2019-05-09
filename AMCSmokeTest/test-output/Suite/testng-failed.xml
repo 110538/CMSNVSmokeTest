@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.amc.listners.TestExecutionListner"/>
+    <listener class-name="com.amc.listners.TestRailListner"/>
+  </listeners>
   <test name="Test(failed)">
     <classes>
       <class name="com.runner.test.TestEvents">
@@ -8,7 +12,7 @@
           <include name="MediatorHierarchyCreationTest"/>
           <include name="WOPHierarchyCreationTest"/>
           <include name="MPHierarchyCreationTest"/>
-          <include name="puhingRecords"/>
+          <include name="connectESBDatabaseTest"/>
         </methods>
       </class> <!-- com.runner.test.TestEvents -->
     </classes>
