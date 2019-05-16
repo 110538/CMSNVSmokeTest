@@ -24,12 +24,12 @@ public class ObjectRepository extends CMSTestBase {
 		PageFactory.initElements(driver, this);
 	}
    
-	// Captured CMSNV Test Application objects
+	// Captured the CMSNV Test Application objects
 	
 	@FindBy(xpath = "//a[@class='dialog button default']")
 	WebElement accept;
 	
-	@FindBy(xpath = "//a[contains(text(),'Detect Receiver')]")
+	@FindBy(xpath = "//*[@class='box-links detection-right-links']/a[contains(text(),'Detect Receiver')]")
 	WebElement detectReceiver;
 	
 	@FindBy(xpath = "(//a[contains(text(),'Already installed')])[1]")
@@ -58,11 +58,15 @@ public class ObjectRepository extends CMSTestBase {
 
 	// Accepts the Welcome Screen
 	
-	   public void WelcomeAccept() {
+	   public void WelcomeAccept() throws Exception {
 		
 		System.out.println(driver);
+		
 		timing(accept);
+		
 		accept.click();
+		
+		Thread.sleep(5000);
 	}
 
 	// Selects the DetectReceiver button
@@ -82,8 +86,11 @@ public class ObjectRepository extends CMSTestBase {
 	    public void openCitrixLancher() throws Exception {
 		
 		String cancel = "Pictures\\Cancel.PNG";
+		
 		Pattern pattern = fileReaders(cancel);
+		
 		screen.wait(pattern,20);
+		
 		screen.click(pattern);
 
 	}
@@ -201,7 +208,9 @@ public class ObjectRepository extends CMSTestBase {
 		Pattern pattern = fileReaders(serialNumber);		
 		
 		screen.wait(pattern, 50);
+		
 		screen.wait((double) 3.0);
+		
 		screen.type(pattern, excelData[FDIdLine][0]);
 		
 		String serach ="Pictures\\Search.PNG";
@@ -209,12 +218,14 @@ public class ObjectRepository extends CMSTestBase {
 		Pattern pattern1 = fileReaders(serach);
 		
 		screen.wait(pattern1, 50);
+		
 		screen.wait((double) 3.0);
+		
 		screen.click(pattern1);
 	}
 
 	
-	// Clicking the Accepted button
+	// Clicking the Accepted button	
 	// After Selecting the Accepted button displayed the corresponding FDID data.
 	   
 	   public void accepted() throws Exception {
@@ -270,7 +281,7 @@ public class ObjectRepository extends CMSTestBase {
 		
 	}
 	   
-	   // Reading the Migration Date Field confirm migration success/Failure.
+	   // Reading the Migration Date Field to confirm migration success/Failure.
 	   
 	    public String migrationDate() throws Exception {
 
@@ -338,6 +349,7 @@ public class ObjectRepository extends CMSTestBase {
 	    	
 	    }
 	    // Acknowledge the close button
+	    
 	    public void closingFilemaker() throws Exception {
  	
 	    	 String close = "Pictures/Close.PNG";	 

@@ -13,32 +13,58 @@ import org.testng.ITestContext;
 import com.cmstestbase.test.CMSTestBase;
 
 public class TestExecutionListner extends CMSTestBase implements IMethodInterceptor {
+	
+	
+	// Loads the Excel sheet from ConfigProperties file
+	// Loads the ExecutionModel sheet
+	// Executes TestCase Which is Yes in Execute Column in ExecutionModel sheet.
+	
 	@Override
 	public List<IMethodInstance> intercept(List<IMethodInstance> methods, ITestContext context) {
+	
 		Properties prop = propHandler.get();
+		
 		List<IMethodInstance> result = new ArrayList<IMethodInstance>();
+		
 		for (IMethodInstance method : methods) {
+		
 			initializeExcelSheet(prop.getProperty("TestExecutionFileName"));
+			
 			XSSFSheet sheet;
+			
 			XSSFWorkbook workBook;
+			
 			String sheetName = "ExecutionModel";
+			
 			workBook = excelWorkBook.get();
+			
 			sheet = workBook.getSheet(sheetName);
+			
 			int maxcount = sheet.getLastRowNum();
+			
 			try {
+			
 				for (int testcase = 1; testcase <= maxcount; testcase++) {
+				
 					String testCaseID = getDataFromExcel(testcase, 0, sheetName);
+					
 					if (testCaseID.equalsIgnoreCase(method.getMethod().getMethodName())) {
+					
 						String row = getDataFromExcel(testcase, 1, sheetName);
+						
 						if (row.equalsIgnoreCase("Yes")) {
+						
 							result.add(method);
 						}
 					}
 				}
+			
 			} catch (Exception e) {
+			
 				System.out.println(e.getStackTrace());
 			}
 		}
+		
 		return result;
 	}
 }

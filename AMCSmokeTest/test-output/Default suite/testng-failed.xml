@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="com.runner.test.TestEvents">
         <methods>
-          <include name="MediatorHierarchyCreationTest"/>
-          <include name="WOPHierarchyCreationTest"/>
-          <include name="MPHierarchyCreationTest"/>
+          <include name="CMSNVFieldValidationsWithMPTest"/>
           <include name="puhingRecords"/>
+          <include name="connectESBDatabaseTest"/>
+          <include name="closingbrowser"/>
+          <include name="CMSNVFieldValidationsWithWOPTest"/>
         </methods>
       </class> <!-- com.runner.test.TestEvents -->
     </classes>

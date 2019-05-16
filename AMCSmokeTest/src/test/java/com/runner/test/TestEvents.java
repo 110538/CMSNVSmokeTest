@@ -4,62 +4,99 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.cmstestbase.test.CMSTestBase;
 import com.objects.test.ObjectRepository;
-import com.utilis.test.ConnectingESBDatabase;
-
+import com.utilis.test.Utility;
 import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Stories;
 import ru.yandex.qatools.allure.annotations.Title;
 
 public class TestEvents extends CMSTestBase {
 
-	ConnectingESBDatabase ceb = new ConnectingESBDatabase();
+	Utility utility = new Utility();
 
 	ObjectRepository obr = new ObjectRepository(driver);
 
 	@BeforeTest()
 
 	public void connectESBDatabaseTest() throws Throwable {
-		
-		ceb.connectESBDatabase();
+
+		utility.connectToEsbDatabase();
+
 	}
 
-	
 	@Features("CMSNV SMOKE")
-	@Stories("ESB Hierachry")
+
+	@Stories("WOP ESB EVENTS")
+
 	@Test(priority = 1)
-	@Title("WOPHierarchyCreationTest")
-	public void WOPHierarchyCreationTest() throws Exception {
 
-		 ceb.hierarchyCreation("AMCN.EVENT.WOP.CREATE.VERSIONS");
-		 
-		 logger("WOP Hierachry is available in ESB");
-		
+	@Title("WOPHierarchyValidationTest")
+
+	public void WOPHierarchyValidationTest() throws Exception {
+
+		utility.hierarchyValidation("AMCN.EVENT.WOP.CREATE.VERSIONS");
+
+		logger("WOP Hierachry is available in ESB");
+
 	}
 
 	@Features("CMSNV SMOKE")
-	@Stories("ESB Hierachry")
-	@Test(priority = 2)
-	@Title("MPHierarchyCreationTest")
-	public void MPHierarchyCreationTest() throws Exception {
 
-		ceb.hierarchyCreation("AMCN.EVENT.WOP.MP.PRODUCT.DATA");
+	@Stories("MP ESB EVENTS")
+
+	@Test(priority = 2)
+
+	@Title("MPHierarchyValidationTest")
+
+	public void MPHierarchyValidationTest() throws Exception {
+
+		utility.hierarchyValidation("AMCN.EVENT.WOP.MP.PRODUCT.DATA");
 
 		logger("=========MP Hierachry is available in ESB===========");
 
 	}
 
 	@Features("CMSNV SMOKE")
-	@Stories("ESB Hierachry")
+
+	@Stories("MEDIATOR ESB EVENTS")
+
 	@Test(priority = 3)
-	@Title("MediatorHierarchyCreationTest")
 
-	public void MediatorHierarchyCreationTest() throws Exception {
+	@Title("MediatorHierarchyValidationTest")
 
-		ceb.hierarchyCreation("AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER");
+	public void MediatorHierarchyValidationTest() throws Exception {
+
+		utility.hierarchyValidation("AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER");
 
 		logger("=========Mediator Hierachry is available in ESB===========");
 
-		
+	}
+
+	@Features("CMSNV SMOKE")
+
+	@Stories("CMSNV Field Validations With WOP")
+
+	@Test(priority = 4)
+
+	@Title("CMSNV Field Validations With WOP Test")
+
+	public void CMSNVFieldValidationsWithWOPTest() throws Exception {
+
+		utility.APIResponse("WOPAPI", CMSTestBase.RLID);
+
+	}
+
+	@Features("CMSNV SMOKE")
+
+	@Stories("CMSNV Field Validations With MP")
+
+	@Test(priority = 5)
+
+	@Title("CMSNV Field Validations With MP Test")
+
+	public void CMSNVFieldValidationsWithMPTest() throws Exception {
+
+		utility.APIResponse("APIMP", CMSTestBase.RLID);
+
 	}
 
 }

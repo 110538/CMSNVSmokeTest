@@ -2,9 +2,10 @@
 
 <html>
   <head>
+  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -23,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.test.TestEvents" hash-for-method="CMSNVFieldValidationsWithMPTest">CMSNVFieldValidationsWithMPTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.test.TestEvents" hash-for-method="CMSNVFieldValidationsWithWOPTest">CMSNVFieldValidationsWithWOPTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,17 +121,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.test.TestEvents" hash-for-method="MPHierarchyCreationTest">MPHierarchyCreationTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.test.TestEvents" hash-for-method="MPHierarchyValidationTest">MPHierarchyValidationTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.test.TestEvents" hash-for-method="MediatorHierarchyCreationTest">MediatorHierarchyCreationTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.test.TestEvents" hash-for-method="MediatorHierarchyValidationTest">MediatorHierarchyValidationTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.test.TestEvents" hash-for-method="WOPHierarchyCreationTest">WOPHierarchyCreationTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.runner.test.TestEvents" hash-for-method="WOPHierarchyValidationTest">WOPHierarchyValidationTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -126,6 +146,45 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.runner.test.TestEvents</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CMSNVFieldValidationsWithMPTest">
+                  </a> <!-- CMSNVFieldValidationsWithMPTest -->
+                  <span class="method-name">CMSNVFieldValidationsWithMPTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.util.regex.Matcher.appendReplacement(Matcher.java:804)
+	at java.util.regex.Matcher.replaceAll(Matcher.java:955)
+	at java.lang.String.replaceAll(String.java:2223)
+	at com.cmstestbase.test.CMSTestBase.addparamvaluesinRequest(CMSTestBase.java:1033)
+	at com.cmstestbase.test.CMSTestBase.testhttpclientforPost(CMSTestBase.java:767)
+	at com.utilis.test.Utility.APIResponse(Utility.java:136)
+	at com.runner.test.TestEvents.CMSNVFieldValidationsWithMPTest(TestEvents.java:98)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CMSNVFieldValidationsWithWOPTest">
+                  </a> <!-- CMSNVFieldValidationsWithWOPTest -->
+                  <span class="method-name">CMSNVFieldValidationsWithWOPTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.lang.String.replace(String.java:2240)
+	at com.cmstestbase.test.CMSTestBase.getapiExecute(CMSTestBase.java:587)
+	at com.utilis.test.Utility.APIResponse(Utility.java:128)
+	at com.runner.test.TestEvents.CMSNVFieldValidationsWithWOPTest(TestEvents.java:84)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -134,23 +193,23 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="MPHierarchyCreationTest">
-                  </a> <!-- MPHierarchyCreationTest -->
-                  <span class="method-name">MPHierarchyCreationTest</span>
+                  <a name="MPHierarchyValidationTest">
+                  </a> <!-- MPHierarchyValidationTest -->
+                  <span class="method-name">MPHierarchyValidationTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="MediatorHierarchyCreationTest">
-                  </a> <!-- MediatorHierarchyCreationTest -->
-                  <span class="method-name">MediatorHierarchyCreationTest</span>
+                  <a name="MediatorHierarchyValidationTest">
+                  </a> <!-- MediatorHierarchyValidationTest -->
+                  <span class="method-name">MediatorHierarchyValidationTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="WOPHierarchyCreationTest">
-                  </a> <!-- WOPHierarchyCreationTest -->
-                  <span class="method-name">WOPHierarchyCreationTest</span>
+                  <a name="WOPHierarchyValidationTest">
+                  </a> <!-- WOPHierarchyValidationTest -->
+                  <span class="method-name">WOPHierarchyValidationTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -164,11 +223,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.amc.listners.TestExecutionListner&quot;/&gt;
-    &lt;listener class-name=&quot;com.amc.listners.TestRailListner&quot;/&gt;
-  &lt;/listeners&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.runner.test.TestEvents&quot;/&gt;
@@ -211,24 +266,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'WOPHierarchyCreationTest')
+data.setCell(0, 1, 'CMSNVFieldValidationsWithWOPTest')
 data.setCell(0, 2, 'com.runner.test.TestEvents')
-data.setCell(0, 3, 24);
+data.setCell(0, 3, 3671);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'MPHierarchyCreationTest')
+data.setCell(1, 1, 'CMSNVFieldValidationsWithMPTest')
 data.setCell(1, 2, 'com.runner.test.TestEvents')
-data.setCell(1, 3, 13);
+data.setCell(1, 3, 303);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'MediatorHierarchyCreationTest')
+data.setCell(2, 1, 'WOPHierarchyValidationTest')
 data.setCell(2, 2, 'com.runner.test.TestEvents')
-data.setCell(2, 3, 0);
+data.setCell(2, 3, 19);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'MediatorHierarchyValidationTest')
+data.setCell(3, 2, 'com.runner.test.TestEvents')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'MPHierarchyValidationTest')
+data.setCell(4, 2, 'com.runner.test.TestEvents')
+data.setCell(4, 3, 2);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 37 ms</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -255,30 +318,34 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.runner.test.TestEvents</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">puhingRecords</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">connectESBDatabaseTest</span>
-                <span class="method-start">212531 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">WOPHierarchyCreationTest</span>
-                <span class="method-start">215554 ms</span>
+                <span class="method-name">WOPHierarchyValidationTest</span>
+                <span class="method-start">2937 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">MPHierarchyCreationTest</span>
-                <span class="method-start">217081 ms</span>
+                <span class="method-name">MPHierarchyValidationTest</span>
+                <span class="method-start">2961 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">MediatorHierarchyCreationTest</span>
-                <span class="method-start">217660 ms</span>
+                <span class="method-name">MediatorHierarchyValidationTest</span>
+                <span class="method-start">2965 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-suite after">
-                <span class="method-name">closingbrowser</span>
-                <span class="method-start">218346 ms</span>
-              </div> <!-- configuration-suite after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CMSNVFieldValidationsWithWOPTest</span>
+                <span class="method-start">2968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CMSNVFieldValidationsWithMPTest</span>
+                <span class="method-start">6644 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
