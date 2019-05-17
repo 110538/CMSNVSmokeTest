@@ -31,7 +31,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -114,7 +114,7 @@ public class CMSTestBase {
 	public static String RLID;
 	public static int finalApiType;
 	public static int finalApiCount;
-	public Logger logger = Logger.getLogger(CMSTestBase.class);
+	//public Logger logger = Logger.getLogger(CMSTestBase.class);
 
 	// Method For Reading Excel File and Data
 
@@ -349,31 +349,31 @@ public class CMSTestBase {
 		String finalQuery = querySplits[0].toString() + FDID + querySplits[1].toString();
 
 		System.out.println("");
-		
+
 		Date date = new Date();
-		
+
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
 		String currentDate = dateFormat.format(date);
-	
-        String dateInString = currentDate;
-        
-        Date datenew = dateFormat.parse(dateInString);        
 
-        // To TimeZone America/New_York
-        
-        SimpleDateFormat sdfAmerica = new SimpleDateFormat("yyyy-MM-dd");
-        
-        TimeZone tzInAmerica = TimeZone.getTimeZone("America/New_York");
-        
-        sdfAmerica.setTimeZone(tzInAmerica);
+		String dateInString = currentDate;
 
-        String sDateInAmerica = sdfAmerica.format(datenew); // Convert to String first
-        
-        Date dateInAmerica = dateFormat.parse(sDateInAmerica); // Create a new Date object
+		Date datenew = dateFormat.parse(dateInString);        
 
-        String newcurrentDate = dateFormat.format(dateInAmerica);		
-        
+		// To TimeZone America/New_York
+
+		SimpleDateFormat sdfAmerica = new SimpleDateFormat("yyyy-MM-dd");
+
+		TimeZone tzInAmerica = TimeZone.getTimeZone("America/New_York");
+
+		sdfAmerica.setTimeZone(tzInAmerica);
+
+		String sDateInAmerica = sdfAmerica.format(datenew); // Convert to String first
+
+		Date dateInAmerica = dateFormat.parse(sDateInAmerica); // Create a new Date object
+
+		String newcurrentDate = dateFormat.format(dateInAmerica);		
+
 		finalQuery = finalQuery.replaceAll("%s", newcurrentDate);
 
 		return finalQuery;
@@ -412,7 +412,7 @@ public class CMSTestBase {
 
 				logStep("Connected to the Database..");
 
-				logger("Connected to the Database..");
+				//logger("Connected to the Database..");
 			}
 
 			Statement stmt = con.createStatement();
@@ -438,7 +438,7 @@ public class CMSTestBase {
 
 		logStep("Query executed successfully");
 
-		logger("Query executed successfully");
+		//logger("Query executed successfully");
 
 		while (rs.next()) {
 
@@ -483,6 +483,7 @@ public class CMSTestBase {
 						sourceData = sourceData.substring(sourceData.indexOf("<NS1:payload>") + start.length(),
 								sourceData.indexOf("</NS1:payload>"));
 
+
 						System.out.println("Source xml  is :- " + sourceData);
 
 						sourceJsonObj = new JSONObject(sourceData.toString());
@@ -505,10 +506,11 @@ public class CMSTestBase {
 
 						loop = loop + 1;
 
+						line = 0;
 						listEvents.clear();
+						SourceEvents.clear();
+						break;
 					}
-					line = 0;
-
 				}
 
 			}
@@ -666,7 +668,7 @@ public class CMSTestBase {
 					throw new RuntimeException(
 							"Failed : HTTP error code : " + response.getStatusLine().getStatusCode());
 				} else {
-					
+
 					String line = "";
 
 					while ((line = rd.readLine()) != null) {
@@ -750,7 +752,7 @@ public class CMSTestBase {
 
 			}
 		}
-		
+
 		return jsonObj;
 	}
 
@@ -1005,7 +1007,7 @@ public class CMSTestBase {
 	// Convert XML response to JSON Response
 
 	public String convertxmltoJson(String xmlString) {
-		
+
 		try {
 
 			JSONObject xmlJSONObj = XML.toJSONObject(xmlString);
@@ -1081,7 +1083,7 @@ public class CMSTestBase {
 
 					JSONObject maintag = (JSONObject) jObject.getJSONObject("request");
 
-					 metadata = null;
+					metadata = null;
 
 					String[] metaValues;
 
@@ -1161,7 +1163,7 @@ public class CMSTestBase {
 
 		String[][] dataBook = getDataFromExcel(workbook, JsonType);
 
-		logger("Started reading Responses from " + JsonType + " API ");
+		//logger("Started reading Responses from " + JsonType + " API ");
 
 		String paramvalue;
 
@@ -1194,7 +1196,7 @@ public class CMSTestBase {
 
 			if (Param.equalsIgnoreCase(paramName)) {
 
-				logger("Validating " + Param + " param name in " + JsonType + " API");
+				//logger("Validating " + Param + " param name in " + JsonType + " API");
 
 				pName = paramName;
 
@@ -1262,8 +1264,8 @@ public class CMSTestBase {
 
 							logStep("CMSNV " + paramName + " ( " + source + " ) is Matched with WOP " + paramName
 									+ " ( " + paramText + " )");
-							logger("CMSNV " + paramName + " ( " + source + " ) is Matched with WOP " + paramName + " ( "
-									+ paramText + " )");
+							//logger("CMSNV " + paramName + " ( " + source + " ) is Matched with WOP " + paramName + " ( "
+							//+ paramText + " )");
 
 							System.out.println("CMSNV " + paramName + " ( " + source + " ) is Matched with WOP "
 									+ paramName + " ( " + paramText + " )");
@@ -1294,9 +1296,9 @@ public class CMSTestBase {
 
 							logStep("CMSNV " + paramName + " ( " + source + " ) is Matched with MP " + paramName + " ( "
 									+ paramText + " )");
-							
-							logger("CMSNV " + paramName + " ( " + source + " ) is Matched with MP " + paramName + " ( "
-									+ paramText + " )");
+
+							//logger("CMSNV " + paramName + " ( " + source + " ) is Matched with MP " + paramName + " ( "
+							//	+ paramText + " )");
 
 							System.out.println("CMSNV " + paramName + " ( " + source + " ) is Matched with MP "
 									+ paramName + " ( " + paramText + " )");
@@ -1316,7 +1318,7 @@ public class CMSTestBase {
 							}
 						}
 					}
-					
+
 					mpParamvalues.add(paramText);
 
 				} else {
@@ -1336,7 +1338,7 @@ public class CMSTestBase {
 
 	public void logger(String string) {
 
-		logger.info(string);
+		//logger.info(string);
 	}
 
 	// Database Credentials Reading From the Sheet
@@ -1434,7 +1436,7 @@ public class CMSTestBase {
 	// Navigates to Data Migartion Tab
 	// Push the Record
 	// Closes the File Maker
-	
+
 	@BeforeSuite(enabled = true)
 
 	public void puhingRecords() throws Exception {
@@ -1449,102 +1451,102 @@ public class CMSTestBase {
 
 		logStep("Accepted Welcome screen");
 
-		logger("Accepted Welcome screen");
+		//logger("Accepted Welcome screen");
 
 		obr.detectReceiver();
 
 		logStep("Selected detectReceiver");
 
-		logger("Selected detectReceiver");
+		//logger("Selected detectReceiver");
 
 		obr.openCitrixLancher();
 
 		logStep("Closed the Citrix Launcher");
 
-		logger("Closed the Citrix Launcher");
+		//logger("Closed the Citrix Launcher");
 
 		obr.alreadyInstalled();
 
 		logStep("Closed the Citrix Launcher");
 
-		logger("Closed the Citrix Launcher");
+		//logger("Closed the Citrix Launcher");
 
 		obr.amcCredentials(1, "NonProdLoginCredentials");
 
 		logStep("Entered the AMC Credentials");
 
-		logger("Entered the AMC Credentials");
+		//logger("Entered the AMC Credentials");
 
 		obr.allappsbtn();
 
 		logStep("Selected the all apps button");
 
-		logger("Selected the all apps button");
+		//logger("Selected the all apps button");
 
 		obr.cmsTest();
 
 		logStep("Clicked on the CMS test application");
 
-		logger("Clicked on the CMS test application");
+		//logger("Clicked on the CMS test application");
 
 		obr.cmsFileOpen();
 
 		logStep("Selected the CMS file");
 
-		logger("Selected the CMS file");
+		//logger("Selected the CMS file");
 
 		obr.cmsCredentials();
 
 		logStep("Entered the CMS credntials");
 
-		logger("Entered the CMS credntials");
+		//logger("Entered the CMS credntials");
 
 		obr.titleVersionSearch();
 
 		logStep("Clicked the title verion button");
 
-		logger("Clicked the title verion button");
+		//logger("Clicked the title verion button");
 
 		obr.serialNumberInCMS(0, "FDIDNUMBERS");
 
 		logStep("FDID reading from excel sheet");
 
-		logger("FDID reading from excel sheet");
+		//logger("FDID reading from excel sheet");
 
 		logStep("Entered FDID");
 
-		logger("Entered FDID");
+		//logger("Entered FDID");
 
 		obr.accepted();
 
 		logStep("Accepted the title record");
 
-		logger("Accepted the title record");
+		//logger("Accepted the title record");
 
 		obr.datMigrationTab();
 
 		logStep("Navigated to data migration tab");
 
-		logger("Navigated to data migration tab");
+		//logger("Navigated to data migration tab");
 
 		obr.pushToMigrate();
 
 		logStep("Pushed the record");
 
-		logger("Pushed the record");
+		//logger("Pushed the record");
 
 		obr.migrationRequest();
 
 		logStep("Accepted the migration request");
 
-		logger("Accepted the migration request");
+		//logger("Accepted the migration request");
 
 		try {
 			obr.migrationDate();
 
 			logStep("Navigated to migration date");
 
-			logger("Navigated to migration date");
+			//logger("Navigated to migration date");
 
 		} catch (Exception e) {
 
@@ -1556,41 +1558,41 @@ public class CMSTestBase {
 
 			logStep("Selected the main menu in cms file maker");
 
-			logger("Selected the main menu in cms file maker");
+			//logger("Selected the main menu in cms file maker");
 
 			obr.quitFileMaker();
 
 			logStep("Quit the file maker");
 
-			logger("Quit the file maker");
+			//logger("Quit the file maker");
 
 			obr.acknowledgeFileMakerQuit();
 
 			logStep("Acckonwledged the file maker ");
 
-			logger("Acckonwledged the file maker ");
+			//logger("Acckonwledged the file maker ");
 
 			obr.closingFilemaker();
 
 			logStep("Closed the file maker");
 
-			logger("Closed the file maker");
+			//logger("Closed the file maker");
 
 			obr.closingMainWindowFileMaker();
 
 			logStep("Closed the file maker main window");
 
-			logger("Closed the file maker main window");
+			//logger("Closed the file maker main window");
 
 			logStep("Waiting some time before fecching ESB events ");
 
-			logger("Waiting some time before fecching ESB events ");
+			//logger("Waiting some time before fecching ESB events ");
 
 			Thread.sleep(60000);
 
 			System.out.println("******************************");
 
-			logger("Waiting Time is completed to fetch the ESB events ");
+			//logger("Waiting Time is completed to fetch the ESB events ");
 		}
 
 	}
@@ -1608,7 +1610,7 @@ public class CMSTestBase {
 
 		logStep("Nonprod portal logged out successfully ");
 
-		logger("Nonprod portal logged out successfully ");
+		//logger("Nonprod portal logged out successfully ");
 
 		browserClose();
 

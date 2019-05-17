@@ -4,7 +4,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.cmstestbase.test.CMSTestBase;
 import com.objects.test.ObjectRepository;
-import com.utilis.test.Utility;
+import com.utils.test.Utility;
+
 import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Stories;
 import ru.yandex.qatools.allure.annotations.Title;
@@ -35,7 +36,7 @@ public class TestEvents extends CMSTestBase {
 
 		utility.hierarchyValidation("AMCN.EVENT.WOP.CREATE.VERSIONS");
 
-		logger("WOP Hierachry is available in ESB");
+		//logger("WOP Hierachry is available in ESB");
 
 	}
 
@@ -51,7 +52,7 @@ public class TestEvents extends CMSTestBase {
 
 		utility.hierarchyValidation("AMCN.EVENT.WOP.MP.PRODUCT.DATA");
 
-		logger("=========MP Hierachry is available in ESB===========");
+		//logger("=========MP Hierachry is available in ESB===========");
 
 	}
 
@@ -67,7 +68,7 @@ public class TestEvents extends CMSTestBase {
 
 		utility.hierarchyValidation("AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER");
 
-		logger("=========Mediator Hierachry is available in ESB===========");
+		//logger("=========Mediator Hierachry is available in ESB===========");
 
 	}
 

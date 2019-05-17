@@ -1,0 +1,69 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 7,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 6,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "time" : {
+        "start" : 1558094843257,
+        "stop" : 1558094852363,
+        "duration" : 9106
+      }
+    },
+    "defects" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "938c495a33133a97",
+        "message" : "OutOfMemoryError: Java heap space",
+        "status" : "BROKEN"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "64c6da284ae48e1b",
+        "title" : "Suite : Test",
+        "statistic" : {
+          "total" : 7,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 6,
+          "failed" : 0,
+          "broken" : 1
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "title" : "CMSNV SMOKE",
+        "statistic" : {
+          "total" : 5,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 5,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "title" : "Without feature",
+        "statistic" : {
+          "total" : 2,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 1,
+          "failed" : 0,
+          "broken" : 1
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

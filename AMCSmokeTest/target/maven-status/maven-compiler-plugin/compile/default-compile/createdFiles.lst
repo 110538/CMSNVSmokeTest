@@ -3,5 +3,5 @@ com\amc\listners\APIClient.class
 com\cmstestbase\test\CMSTestBase.class
 com\amc\listners\APIException.class
 com\amc\listners\TestExecutionListner.class
-com\utilis\test\Utility.class
 com\objects\test\ObjectRepository.class
+com\utils\test\Utility.class

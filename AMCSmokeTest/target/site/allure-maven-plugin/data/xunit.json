@@ -1,0 +1,104 @@
+{
+  "time" : {
+    "start" : 1558094843257,
+    "stop" : 1558094852363,
+    "duration" : 9106
+  },
+  "testSuites" : [ {
+    "uid" : "64c6da284ae48e1b",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test",
+    "time" : {
+      "start" : 1558094843257,
+      "stop" : 1558094852363,
+      "duration" : 9106
+    },
+    "statistic" : {
+      "total" : 7,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 6,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "6d788bc51eda839a",
+      "name" : "closingbrowser",
+      "title" : "Closingbrowser",
+      "time" : {
+        "start" : 1558094852363,
+        "stop" : 1558094852363,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "c707e31dfd10e210",
+      "name" : "connectESBDatabaseTest",
+      "title" : "Connect ESB database test",
+      "time" : {
+        "start" : 1558094843257,
+        "stop" : 1558094843260,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "d221aa544729580a",
+      "name" : "WOPHierarchyValidationTest",
+      "title" : "WOPHierarchyValidationTest",
+      "time" : {
+        "start" : 1558094845886,
+        "stop" : 1558094845888,
+        "duration" : 2
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "2b20b88cb6442c27",
+      "name" : "MPHierarchyValidationTest",
+      "title" : "MPHierarchyValidationTest",
+      "time" : {
+        "start" : 1558094847587,
+        "stop" : 1558094847588,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "2bc89ba635ca2bc2",
+      "name" : "MediatorHierarchyValidationTest",
+      "title" : "MediatorHierarchyValidationTest",
+      "time" : {
+        "start" : 1558094848069,
+        "stop" : 1558094848070,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "fbfeef0ccae1addb",
+      "name" : "CMSNVFieldValidationsWithWOPTest",
+      "title" : "CMSNV Field Validations With WOP Test",
+      "time" : {
+        "start" : 1558094848576,
+        "stop" : 1558094848576,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "e563f4dd559b4971",
+      "name" : "CMSNVFieldValidationsWithMPTest",
+      "title" : "CMSNV Field Validations With MP Test",
+      "time" : {
+        "start" : 1558094849060,
+        "stop" : 1558094849061,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    } ]
+  } ]
+}

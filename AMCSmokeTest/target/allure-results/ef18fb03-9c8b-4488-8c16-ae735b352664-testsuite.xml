@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1558094677867" stop="1558094849626" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : Test</name>
+    <title>Suite : Test</title>
+    <test-cases>
+        <test-case start="1558094843257" stop="1558094843260" status="broken">
+            <name>connectESBDatabaseTest</name>
+            <description>@BeforeTest</description>
+            <failure>
+                <message>OutOfMemoryError: Java heap space</message>
+                <stack-trace>java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:448)
+	at java.lang.StringBuilder.append(StringBuilder.java:136)
+	at java.lang.StringBuilder.append(StringBuilder.java:131)
+	at java.util.AbstractCollection.toString(AbstractCollection.java:462)
+	at com.cmstestbase.test.CMSTestBase.ConnectToESBDatabase(CMSTestBase.java:471)
+	at com.cmstestbase.test.CMSTestBase.ConnectDBandExecuteESBQuery(CMSTestBase.java:331)
+	at com.utils.test.Utility.connectToEsbDatabase(Utility.java:19)
+	at com.runner.test.TestEvents.connectESBDatabaseTest(TestEvents.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+	at org.testng.TestRunner.run(TestRunner.java:497)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1558094495293" stop="1558094495294" status="passed">
+                    <name>logStep[Accepted Welcome screen]</name>
+                    <title>Accepted Welcome screen</title>
+                </step>
+                <step start="1558094495382" stop="1558094495382" status="passed">
+                    <name>logStep[Selected detectReceiver]</name>
+                    <title>Selected detectReceiver</title>
+                </step>
+                <step start="1558094496544" stop="1558094496544" status="passed">
+                    <name>logStep[Closed the Citrix Launcher]</name>
+                    <title>Closed the Citrix Launcher</title>
+                </step>
+                <step start="1558094496630" stop="1558094496630" status="passed">
+                    <name>logStep[Closed the Citrix Launcher]</name>
+                    <title>Closed the Citrix Launcher</title>
+                </step>
+                <step start="1558094496631" stop="1558094496631" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                </step>
+                <step start="1558094497673" stop="1558094497673" status="passed">
+                    <name>logStep[Entered the AMC Credentials]</name>
+                    <title>Entered the AMC Credentials</title>
+                </step>
+                <step start="1558094498796" stop="1558094498796" status="passed">
+                    <name>logStep[Selected the all apps button]</name>
+                    <title>Selected the all apps button</title>
+                </step>
+                <step start="1558094498878" stop="1558094498878" status="passed">
+                    <name>logStep[Clicked on the CMS test application]</name>
+                    <title>Clicked on the CMS test application</title>
+                </step>
+                <step start="1558094502181" stop="1558094502181" status="passed">
+                    <name>logStep[Selected the CMS file]</name>
+                    <title>Selected the CMS file</title>
+                </step>
+                <step start="1558094530162" stop="1558094530162" status="passed">
+                    <name>logStep[Entered the CMS credntials]</name>
+                    <title>Entered the CMS credntials</title>
+                </step>
+                <step start="1558094534309" stop="1558094534309" status="passed">
+                    <name>logStep[Clicked the title verion button]</name>
+                    <title>Clicked the title verion button</title>
+                </step>
+                <step start="1558094534310" stop="1558094534310" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                </step>
+                <step start="1558094543241" stop="1558094543241" status="passed">
+                    <name>logStep[FDID reading from excel sheet]</name>
+                    <title>FDID reading from excel sheet</title>
+                </step>
+                <step start="1558094543242" stop="1558094543242" status="passed">
+                    <name>logStep[Entered FDID]</name>
+                    <title>Entered FDID</title>
+                </step>
+                <step start="1558094545911" stop="1558094545911" status="passed">
+                    <name>logStep[Accepted the title record]</name>
+                    <title>Accepted the title record</title>
+                </step>
+                <step start="1558094551941" stop="1558094551941" status="passed">
+                    <name>logStep[Navigated to data migration tab]</name>
+                    <title>Navigated to data migration tab</title>
+                </step>
+                <step start="1558094553181" stop="1558094553181" status="passed">
+                    <name>logStep[Pushed the record]</name>
+                    <title>Pushed the record</title>
+                </step>
+                <step start="1558094555623" stop="1558094555623" status="passed">
+                    <name>logStep[Accepted the migration request]</name>
+                    <title>Accepted the migration request</title>
+                </step>
+                <step start="1558094608255" stop="1558094608255" status="passed">
+                    <name>logStep[Selected the main menu in cms file maker]</name>
+                    <title>Selected the main menu in cms file maker</title>
+                </step>
+                <step start="1558094610271" stop="1558094610271" status="passed">
+                    <name>logStep[Quit the file maker]</name>
+                    <title>Quit the file maker</title>
+                </step>
+                <step start="1558094612604" stop="1558094612604" status="passed">
+                    <name>logStep[Acckonwledged the file maker ]</name>
+                    <title>Acckonwledged the file maker </title>
+                </step>
+                <step start="1558094613990" stop="1558094613990" status="passed">
+                    <name>logStep[Closed the file maker]</name>
+                    <title>Closed the file maker</title>
+                </step>
+                <step start="1558094617841" stop="1558094617841" status="passed">
+                    <name>logStep[Closed the file maker main window]</name>
+                    <title>Closed the file maker main window</title>
+                </step>
+                <step start="1558094617842" stop="1558094617842" status="passed">
+                    <name>logStep[Waiting some time before fecching ESB events ]</name>
+                    <title>Waiting some time before fecching ESB events </title>
+                </step>
+                <step start="1558094677868" stop="1558094677868" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                </step>
+                <step start="1558094677976" stop="1558094677976" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                </step>
+                <step start="1558094678122" stop="1558094678122" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                </step>
+                <step start="1558094678283" stop="1558094678283" status="passed">
+                    <name>logStep[Driver Loaded]</name>
+                    <title>Driver Loaded</title>
+                </step>
+                <step start="1558094679937" stop="1558094679937" status="passed">
+                    <name>logStep[Connected to the Database..]</name>
+                    <title>Connected to the Database..</title>
+                </step>
+                <step start="1558094792803" stop="1558094792803" status="passed">
+                    <name>logStep[Query executed successfully]</name>
+                    <title>Query executed successfully</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="19692@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1558094845886" stop="1558094845888" status="canceled">
+            <name>WOPHierarchyValidationTest</name>
+            <title>WOPHierarchyValidationTest</title>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:425)
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:186)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:61)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.registerSkippedTestResult(Invoker.java:1063)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:529)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="Test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="WOPHierarchyValidationTest"/>
+                <label name="story" value="WOP ESB EVENTS"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="19692@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1558094847587" stop="1558094847588" status="canceled">
+            <name>MPHierarchyValidationTest</name>
+            <title>MPHierarchyValidationTest</title>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:425)
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:186)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:61)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.registerSkippedTestResult(Invoker.java:1063)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:529)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="Test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="MPHierarchyValidationTest"/>
+                <label name="story" value="MP ESB EVENTS"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="19692@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1558094848069" stop="1558094848070" status="canceled">
+            <name>MediatorHierarchyValidationTest</name>
+            <title>MediatorHierarchyValidationTest</title>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:425)
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:186)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:61)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.registerSkippedTestResult(Invoker.java:1063)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:529)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="Test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="MediatorHierarchyValidationTest"/>
+                <label name="story" value="MEDIATOR ESB EVENTS"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="19692@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1558094848576" stop="1558094848576" status="canceled">
+            <name>CMSNVFieldValidationsWithWOPTest</name>
+            <title>CMSNV Field Validations With WOP Test</title>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:425)
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:186)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:61)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.registerSkippedTestResult(Invoker.java:1063)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:529)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="Test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="CMSNVFieldValidationsWithWOPTest"/>
+                <label name="story" value="CMSNV Field Validations With WOP"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="19692@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1558094849060" stop="1558094849061" status="canceled">
+            <name>CMSNVFieldValidationsWithMPTest</name>
+            <title>CMSNV Field Validations With MP Test</title>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:425)
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:186)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:61)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.registerSkippedTestResult(Invoker.java:1063)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:529)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="Test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="CMSNVFieldValidationsWithMPTest"/>
+                <label name="story" value="CMSNV Field Validations With MP"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="19692@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
