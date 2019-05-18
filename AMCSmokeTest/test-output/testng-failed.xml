@@ -5,9 +5,7 @@
     <classes>
       <class name="com.runner.test.TestEvents">
         <methods>
-          <include name="puhingRecords"/>
           <include name="connectESBDatabaseTest"/>
-          <include name="closingbrowser"/>
           <include name="CMSNVFieldValidationsWithWOPTest"/>
         </methods>
       </class> <!-- com.runner.test.TestEvents -->

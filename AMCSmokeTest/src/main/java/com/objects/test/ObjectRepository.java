@@ -10,11 +10,16 @@ import org.openqa.selenium.support.PageFactory;
 import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
 
-import com.cmstestbase.test.CMSTestBase;
+import com.testBase.test.TestBase;
+import com.testBase.test.ExcelUtils;
+import com.testBase.test.NonProdPortal;
 
-public class ObjectRepository extends CMSTestBase {
+public class ObjectRepository extends NonProdPortal {
 
-	 
+	ExcelUtils excelUtils =new ExcelUtils();
+	
+	TestBase cmsBaseTest=new TestBase();
+	
 	Screen screen = new Screen();
 	
 	// Created constructor to Initializing the page objects
@@ -62,7 +67,7 @@ public class ObjectRepository extends CMSTestBase {
 		
 		System.out.println(driver);
 		
-		timing(accept);
+		cmsBaseTest.timing(accept);
 		
 		accept.click();
 		
@@ -74,7 +79,7 @@ public class ObjectRepository extends CMSTestBase {
 	   
 	   public void detectReceiver() {
 		
-		timing(detectReceiver);
+		cmsBaseTest.timing(detectReceiver);
 		
 		detectReceiver.click();
 
@@ -87,7 +92,7 @@ public class ObjectRepository extends CMSTestBase {
 		
 		String cancel = "Pictures\\Cancel.PNG";
 		
-		Pattern pattern = fileReaders(cancel);
+		Pattern pattern =cmsBaseTest. fileReaders(cancel);
 		
 		screen.wait(pattern,20);
 		
@@ -99,7 +104,7 @@ public class ObjectRepository extends CMSTestBase {
 	
 	    public void alreadyInstalled() {
 		
-		timing(alreadyInstalled);
+		cmsBaseTest.timing(alreadyInstalled);
 		
 		alreadyInstalled.click();
 	}
@@ -109,15 +114,15 @@ public class ObjectRepository extends CMSTestBase {
 	     
 	    public void amcCredentials(int linenumber,String sheetname) throws Exception {
 		
-		readingExcel(sheetname);	
+	    	excelUtils.readingExcel(sheetname);	
 		
-		timing(usename);
+		cmsBaseTest.timing(usename);
 		
-		usename.sendKeys(excelData[linenumber][0]);
+		usename.sendKeys(excelUtils.excelData[linenumber][0]);
 		
-		timing(password);
+		cmsBaseTest.timing(password);
 		
-		password.sendKeys(excelData[linenumber][1]);
+		password.sendKeys(excelUtils.excelData[linenumber][1]);
 		
 		login.click();
 	}
@@ -126,7 +131,7 @@ public class ObjectRepository extends CMSTestBase {
 	   
 	   public void allappsbtn() {
 		
-		timing(allAppsBtn);
+		cmsBaseTest.timing(allAppsBtn);
 		
 		allAppsBtn.click();
 
@@ -136,7 +141,7 @@ public class ObjectRepository extends CMSTestBase {
 	   
 	    public void cmsTest() {
 		
-		timing(CMStest);
+		cmsBaseTest.timing(CMStest);
 		
 		CMStest.click();
 
@@ -148,7 +153,7 @@ public class ObjectRepository extends CMSTestBase {
 		
 		String CMS = "Pictures\\CMS.PNG";
 		
-		Pattern pattern = fileReaders(CMS);
+		Pattern pattern = cmsBaseTest.fileReaders(CMS);
 		
 		screen.wait(pattern, 90);
 		
@@ -164,7 +169,7 @@ public class ObjectRepository extends CMSTestBase {
 		
 	    String pass = "Pictures\\Pass.PNG";
 		
-	    Pattern pattern = fileReaders(pass);
+	    Pattern pattern = cmsBaseTest.fileReaders(pass);
 		
 	    screen.wait(pattern, 150);
 		
@@ -174,7 +179,7 @@ public class ObjectRepository extends CMSTestBase {
 		
 	    String ok = "Pictures\\Ok.PNG";
 		
-	    Pattern pattern1 = fileReaders(ok);
+	    Pattern pattern1 =cmsBaseTest. fileReaders(ok);
 		
 	    screen.wait(pattern1, 30);
 		
@@ -187,7 +192,7 @@ public class ObjectRepository extends CMSTestBase {
 
 		String titleVersion = "Pictures\\TitleVersion .PNG";
 		
-		Pattern pattern = fileReaders(titleVersion);
+		Pattern pattern =cmsBaseTest. fileReaders(titleVersion);
 		
 		screen.wait(pattern, 40);
 		
@@ -201,21 +206,21 @@ public class ObjectRepository extends CMSTestBase {
 	    
 	   public void serialNumberInCMS(int FDIdLine, String sheetname) throws Exception {
 		
-		readingExcel(sheetname);
+		   excelUtils.readingExcel(sheetname);
 		
 		String serialNumber = "Pictures\\SerialNumber.PNG";
 		
-		Pattern pattern = fileReaders(serialNumber);		
+		Pattern pattern = cmsBaseTest.fileReaders(serialNumber);		
 		
 		screen.wait(pattern, 50);
 		
 		screen.wait((double) 3.0);
 		
-		screen.type(pattern, excelData[FDIdLine][0]);
+		screen.type(pattern,excelUtils.excelData[FDIdLine][0]);
 		
 		String serach ="Pictures\\Search.PNG";
 		
-		Pattern pattern1 = fileReaders(serach);
+		Pattern pattern1 = cmsBaseTest.fileReaders(serach);
 		
 		screen.wait(pattern1, 50);
 		
@@ -232,7 +237,7 @@ public class ObjectRepository extends CMSTestBase {
 
 		String accepted ="Pictures\\Accepted.PNG";
 		
-		Pattern pattern = fileReaders(accepted);
+		Pattern pattern = cmsBaseTest.fileReaders(accepted);
 		
 		screen.wait(pattern, 50);
 		
@@ -245,7 +250,7 @@ public class ObjectRepository extends CMSTestBase {
 
 		String dataMigrationTab ="Pictures\\DataMigrationTab.PNG";
 		
-		Pattern pattern = fileReaders(dataMigrationTab);	
+		Pattern pattern =cmsBaseTest.fileReaders(dataMigrationTab);	
 		
 		screen.click(pattern, 50);
 		
@@ -259,7 +264,7 @@ public class ObjectRepository extends CMSTestBase {
 		
 		String pushToMigrate ="Pictures\\PushToMigrate.PNG";
 		
-		Pattern pattern = fileReaders(pushToMigrate);
+		Pattern pattern = cmsBaseTest.fileReaders(pushToMigrate);
 		
 		screen.click(pattern, 40);
 		
@@ -273,7 +278,7 @@ public class ObjectRepository extends CMSTestBase {
 
 		String migrationRequest ="Pictures\\MigrationRequest.PNG";
 		
-		Pattern pattern = fileReaders(migrationRequest);
+		Pattern pattern =cmsBaseTest.fileReaders(migrationRequest);
 		
 		screen.wait(pattern, 40);
 		
@@ -287,7 +292,7 @@ public class ObjectRepository extends CMSTestBase {
 
 	    	String migrationDate = "Pictures\\MigrationDate.PNG";
 			
-	    	Pattern pattern = fileReaders(migrationDate);
+	    	Pattern pattern = cmsBaseTest.fileReaders(migrationDate);
 			
 	    	screen.wait((double) 50.0);
 			
@@ -314,7 +319,7 @@ public class ObjectRepository extends CMSTestBase {
 	    	 
 	    	 String mainMenu = "Pictures/MainMenu.PNG";	 
 
-	    	 Pattern pattern = fileReaders(mainMenu); 
+	    	 Pattern pattern = cmsBaseTest.fileReaders(mainMenu); 
 	    	 
 	    	 screen.wait(pattern, 40);
 	    	 
@@ -328,7 +333,7 @@ public class ObjectRepository extends CMSTestBase {
 	    	
 	    	 String mainMenu = "Pictures/quit.PNG";	 
 
-	    	 Pattern pattern = fileReaders(mainMenu); 
+	    	 Pattern pattern =cmsBaseTest. fileReaders(mainMenu); 
 	    	 
 	    	 screen.wait(pattern, 40);
 	    	 
@@ -341,7 +346,7 @@ public class ObjectRepository extends CMSTestBase {
 	    	 
 	    	String mainMenuYes = "Pictures/Yes.PNG";	 
 	    	
-	    	Pattern pattern = fileReaders(mainMenuYes); 
+	    	Pattern pattern = cmsBaseTest.fileReaders(mainMenuYes); 
 	    	
 	    	screen.wait(pattern, 50);
 	    	
@@ -354,7 +359,7 @@ public class ObjectRepository extends CMSTestBase {
  	
 	    	 String close = "Pictures/Close.PNG";	 
 
-	    	 Pattern pattern = fileReaders(close); 
+	    	 Pattern pattern =cmsBaseTest. fileReaders(close); 
 	    	 
 	    	 screen.wait(pattern, 50);
 	    	 
@@ -367,7 +372,7 @@ public class ObjectRepository extends CMSTestBase {
  	
 	    	 String closeMainWindow = "Pictures/CloseMainWindow.PNG";	 
 
-	    	 Pattern pattern = fileReaders(closeMainWindow); 
+	    	 Pattern pattern = cmsBaseTest.fileReaders(closeMainWindow); 
 	    	 
 	    	 screen.wait(pattern, 50);
 	    	 screen.wait((double) 3.0);
@@ -378,11 +383,11 @@ public class ObjectRepository extends CMSTestBase {
 	   
 	   public void logoutNonProdPortal() throws InterruptedException {
 	   
-	    timing(userMenuBtn);
+	    cmsBaseTest.timing(userMenuBtn);
 	   
 	    userMenuBtn.click();
 	   
-	    timing(menuLogOffBtn);
+	    cmsBaseTest.timing(menuLogOffBtn);
 	   
 	    menuLogOffBtn.click();
 	    

@@ -2,24 +2,32 @@ package com.runner.test;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import com.cmstestbase.test.CMSTestBase;
-import com.objects.test.ObjectRepository;
+
+import com.testBase.test.ApiUtil;
+
+import com.testBase.test.CmsApp;
+import com.testBase.test.NonProdPortal;
 import com.utils.test.Utility;
 
 import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Stories;
 import ru.yandex.qatools.allure.annotations.Title;
 
-public class TestEvents extends CMSTestBase {
-
+public class TestEvents extends NonProdPortal {
+	
+	
+	CmsApp cmsapp= new CmsApp();
+	
 	Utility utility = new Utility();
-
-	ObjectRepository obr = new ObjectRepository(driver);
+	
+	//ObjectRepository obr = new ObjectRepository(driver);
 
 	@BeforeTest()
 
 	public void connectESBDatabaseTest() throws Throwable {
-		System.gc();
+		
+		//cmsapp.puhingRecords();
+		
 		utility.connectToEsbDatabase();
 
 	}
@@ -82,7 +90,7 @@ public class TestEvents extends CMSTestBase {
 
 	public void CMSNVFieldValidationsWithWOPTest() throws Exception {
 
-		utility.APIResponse("WOPAPI", CMSTestBase.RLID);
+		utility.APIResponse("WOPAPI", ApiUtil.RLID);
 
 	}
 
@@ -96,8 +104,9 @@ public class TestEvents extends CMSTestBase {
 
 	public void CMSNVFieldValidationsWithMPTest() throws Exception {
 
-		utility.APIResponse("APIMP", CMSTestBase.RLID);
+		utility.APIResponse("APIMP", ApiUtil.RLID);
 
 	}
+
 
 }

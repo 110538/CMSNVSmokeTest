@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37284" started-at="2019-05-17T21:13:15Z" finished-at="2019-05-17T21:13:52Z">
+  <suite name="Suite" duration-ms="38800" started-at="2019-05-18T15:26:26Z" finished-at="2019-05-18T15:27:05Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="37284" started-at="2019-05-17T21:13:15Z" finished-at="2019-05-17T21:13:52Z">
+    <test name="Test" duration-ms="38800" started-at="2019-05-18T15:26:26Z" finished-at="2019-05-18T15:27:05Z">
       <class name="com.runner.test.TestEvents">
-        <test-method status="PASS" signature="connectESBDatabaseTest()[pri:0, instance:com.runner.test.TestEvents@47cd31ea]" name="connectESBDatabaseTest" is-config="true" duration-ms="26173" started-at="2019-05-17T21:13:15Z" finished-at="2019-05-17T21:13:41Z">
+        <test-method status="PASS" signature="connectESBDatabaseTest()[pri:0, instance:com.runner.test.TestEvents@54980154]" name="connectESBDatabaseTest" is-config="true" duration-ms="27952" started-at="2019-05-18T15:26:26Z" finished-at="2019-05-18T15:26:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectESBDatabaseTest -->
-        <test-method status="PASS" signature="WOPHierarchyValidationTest()[pri:1, instance:com.runner.test.TestEvents@47cd31ea]" name="WOPHierarchyValidationTest" duration-ms="16" started-at="2019-05-17T21:13:42Z" finished-at="2019-05-17T21:13:42Z">
+        <test-method status="PASS" signature="WOPHierarchyValidationTest()[pri:1, instance:com.runner.test.TestEvents@54980154]" name="WOPHierarchyValidationTest" duration-ms="16" started-at="2019-05-18T15:26:55Z" finished-at="2019-05-18T15:26:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WOPHierarchyValidationTest -->
-        <test-method status="PASS" signature="MPHierarchyValidationTest()[pri:2, instance:com.runner.test.TestEvents@47cd31ea]" name="MPHierarchyValidationTest" duration-ms="7" started-at="2019-05-17T21:13:43Z" finished-at="2019-05-17T21:13:43Z">
+        <test-method status="PASS" signature="MPHierarchyValidationTest()[pri:2, instance:com.runner.test.TestEvents@54980154]" name="MPHierarchyValidationTest" duration-ms="6" started-at="2019-05-18T15:26:56Z" finished-at="2019-05-18T15:26:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MPHierarchyValidationTest -->
-        <test-method status="PASS" signature="MediatorHierarchyValidationTest()[pri:3, instance:com.runner.test.TestEvents@47cd31ea]" name="MediatorHierarchyValidationTest" duration-ms="0" started-at="2019-05-17T21:13:44Z" finished-at="2019-05-17T21:13:44Z">
+        <test-method status="PASS" signature="MediatorHierarchyValidationTest()[pri:3, instance:com.runner.test.TestEvents@54980154]" name="MediatorHierarchyValidationTest" duration-ms="0" started-at="2019-05-18T15:26:57Z" finished-at="2019-05-18T15:26:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MediatorHierarchyValidationTest -->
-        <test-method status="PASS" signature="CMSNVFieldValidationsWithWOPTest()[pri:4, instance:com.runner.test.TestEvents@47cd31ea]" name="CMSNVFieldValidationsWithWOPTest" duration-ms="5308" started-at="2019-05-17T21:13:44Z" finished-at="2019-05-17T21:13:49Z">
+        <test-method status="PASS" signature="CMSNVFieldValidationsWithWOPTest()[pri:4, instance:com.runner.test.TestEvents@54980154]" name="CMSNVFieldValidationsWithWOPTest" duration-ms="5135" started-at="2019-05-18T15:26:57Z" finished-at="2019-05-18T15:27:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CMSNVFieldValidationsWithWOPTest -->
-        <test-method status="PASS" signature="CMSNVFieldValidationsWithMPTest()[pri:5, instance:com.runner.test.TestEvents@47cd31ea]" name="CMSNVFieldValidationsWithMPTest" duration-ms="1212" started-at="2019-05-17T21:13:50Z" finished-at="2019-05-17T21:13:52Z">
+        <test-method status="PASS" signature="CMSNVFieldValidationsWithMPTest()[pri:5, instance:com.runner.test.TestEvents@54980154]" name="CMSNVFieldValidationsWithMPTest" duration-ms="1366" started-at="2019-05-18T15:27:03Z" finished-at="2019-05-18T15:27:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CMSNVFieldValidationsWithMPTest -->

@@ -1,11 +1,11 @@
 {
-  "uid" : "6de259a21c7e9c8d",
+  "uid" : "d18f73b963e4c2f9",
   "name" : "MPHierarchyValidationTest",
   "title" : "MPHierarchyValidationTest",
   "time" : {
-    "start" : 1558127623687,
-    "stop" : 1558127624167,
-    "duration" : 480
+    "start" : 1558193216557,
+    "stop" : 1558193216563,
+    "duration" : 6
   },
   "summary" : {
     "attachments" : 0,
@@ -16,7 +16,7 @@
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "76c8451e15d8d73e",
+    "uid" : "2e06ff2cc2c18cb1",
     "name" : "Suite : Test",
     "title" : "Suite : Test"
   },
@@ -24,8 +24,8 @@
     "name" : "logStep[Expected :AMCN.EVENT.WOP.MP.PRODUCT.DATA]",
     "title" : "Expected :AMCN.EVENT.WOP.MP.PRODUCT.DATA",
     "time" : {
-      "start" : 1558127623688,
-      "stop" : 1558127623688,
+      "start" : 1558193216562,
+      "stop" : 1558193216562,
       "duration" : 0
     },
     "summary" : {
@@ -36,11 +36,11 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "logStep[Actual : AMCN.EVENT.WOP.MP.PRODUCT.DATA ]",
-    "title" : "Actual : AMCN.EVENT.WOP.MP.PRODUCT.DATA ",
+    "name" : "logStep[Actual :AMCN.EVENT.WOP.MP.PRODUCT.DATA]",
+    "title" : "Actual :AMCN.EVENT.WOP.MP.PRODUCT.DATA",
     "time" : {
-      "start" : 1558127623688,
-      "stop" : 1558127623688,
+      "start" : 1558193216563,
+      "stop" : 1558193216563,
       "duration" : 0
     },
     "summary" : {
@@ -76,6 +76,9 @@
     "name" : "framework",
     "value" : "TestNG"
   }, {
+    "name" : "thread",
+    "value" : "4600@MONO-HYD-LAP-41.main(1)"
+  }, {
     "name" : "suite-title",
     "value" : "Suite : Test"
   }, {
@@ -84,9 +87,6 @@
   }, {
     "name" : "host",
     "value" : "MONO-HYD-LAP-41"
-  }, {
-    "name" : "thread",
-    "value" : "24024@MONO-HYD-LAP-41.main(1)"
   }, {
     "name" : "testClass",
     "value" : "com.runner.test.TestEvents"

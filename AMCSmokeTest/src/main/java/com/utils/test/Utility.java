@@ -2,10 +2,17 @@ package com.utils.test;
 
 import java.util.ArrayList;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
-import com.cmstestbase.test.CMSTestBase;
 
-public class Utility extends CMSTestBase {
+import com.testBase.test.ApiUtil;
 
+import com.testBase.test.DatabaseUtil;
+import com.testBase.test.ExcelUtils;
+
+public class Utility extends ApiUtil {
+
+	ApiUtil apiUtil = new ApiUtil();
+	ExcelUtils excelUtils = new ExcelUtils();
+	DatabaseUtil databaseUtil = new DatabaseUtil();
 	public String errorText;
 
 	public ArrayList<String> rowData = new ArrayList<String>();
@@ -14,9 +21,13 @@ public class Utility extends CMSTestBase {
 	
 	public void connectToEsbDatabase() throws Throwable {
 
-		CMSTestBase cmstest = new CMSTestBase();
-
-		cmstest.ConnectDBandExecuteESBQuery(1);
+		try {databaseUtil.ConnectDBandExecuteESBQuery(1);
+		}
+		
+		catch(Exception e) {
+		
+			System.out.println(e.getMessage());
+		}
 
 	}
 
@@ -24,9 +35,9 @@ public class Utility extends CMSTestBase {
 
 	public void hierarchyValidation(String ExpectedEvents) {
 
-		for (int i = 0; i <= CMSTestBase.ActualEvents.size() - 1; i++) {
+		for (int i = 0; i <= databaseUtil.ActualEvents.size() - 1; i++) {
 
-			String rowdata = CMSTestBase.ActualEvents.get(i);
+			String rowdata = databaseUtil.ActualEvents.get(i);
 
 			// Condition Executes if Expected Events Should Match With Actual Events && Shouldn't have Exception && Shouldn't have .ACK Extension
 			
@@ -34,7 +45,7 @@ public class Utility extends CMSTestBase {
 
 				rowdata = rowdata.replace("[", "").replace("]", " ");
 
-				String[] words = rowdata.split(",");
+				String[] words = rowdata.split(" ");
 
 				for (int j = 0; j <= words.length - 1; j++) {
 
@@ -43,11 +54,13 @@ public class Utility extends CMSTestBase {
 						logStep("Expected :" + ExpectedEvents);
 
 						logStep("Actual :" + words[j]);
-						System.out.println("-----------------------------------------------------------------");
-						
-						System.out.println("Expected Event  :" + ExpectedEvents + "---->" + "Actual Event :" + words[j]);
 						
 						System.out.println("-----------------------------------------------------------------");
+
+						System.out.println("Expected :" + ExpectedEvents + "---->" + "Actual :" + words[j]);
+						
+						System.out.println("-----------------------------------------------------------------");
+
 						break;
 					}
 				}
@@ -56,22 +69,18 @@ public class Utility extends CMSTestBase {
 				
 			} else if (rowdata.contains(ExpectedEvents) && !rowdata.contains("Exception") && rowdata.contains(".ACK")) {
 
-				//String errormsg = "Expected :" + ExpectedEvents + "---->" + "Actual -- But found error inthe DB";
-
-				//System.out.println("Error msg found : - " + errormsg);
-
 				rowdata = rowdata.replace("[", "").replace("]", " ").replace(",", " ");
 
 				String[] words = rowdata.split(" ");
 
 				for (int k = 0; k < words.length - 1; k++) {
 
-					if (ExpectedEvents.equalsIgnoreCase(words[k])) {
+					if (ExpectedEvents.equalsIgnoreCase(words[k].trim())) {
 
 						logStep("Expected :" + ExpectedEvents + "---->" + "Actual :" + words[k]);
-
-						System.out.println("-----------------------------------------------------------------");
 						
+						System.out.println("-----------------------------------------------------------------");
+
 						System.out.println("Expected :" + ExpectedEvents + "---->" + "Actual :" + words[k]);
 						
 						System.out.println("-----------------------------------------------------------------");
@@ -93,15 +102,15 @@ public class Utility extends CMSTestBase {
 	
 	public void APIResponse(String sheetname, String RLID) throws Exception {
 
-		readingexcelFiles(sheetname);
+		excelUtils.readingexcelFiles(sheetname);
 
-		String[][] dataBook = getDataFromExcel(workbook, sheetname);
+		String[][] dataBook = excelUtils.getDataFromExcel(ExcelUtils.workbook, sheetname);
 
 		String ApiType = null;
 
 		String GetValue = null;
 
-		XSSFSheet sheet = workbook.getSheet(sheetname);
+		XSSFSheet sheet = ExcelUtils.workbook.getSheet(sheetname);
 
 		int rowCount = sheet.getPhysicalNumberOfRows();
 
@@ -123,15 +132,15 @@ public class Utility extends CMSTestBase {
 			
 			if (ApiType.equalsIgnoreCase("Post") && !(GetValue.equalsIgnoreCase("Result"))) {
 
-				testhttpclientforPost(exData, sheetname, RLID);
+				apiUtil.testhttpclientforPost(exData, sheetname, RLID);
 
-				readJson(exData, GetValue);
+				apiUtil.readJson(exData, GetValue);
 
 		     // Calls the API GET Method From CMSTestBase Class When API Type is Get and GetValue is Result
 			
 			} else if (ApiType.equalsIgnoreCase("GET") && GetValue.equalsIgnoreCase("Result")) {
 
-				getapiExecute(String.valueOf(exData), sheetname, RLID);
+				apiUtil.getapiExecute(String.valueOf(exData), sheetname, RLID);
 
 				break;
             
@@ -139,7 +148,7 @@ public class Utility extends CMSTestBase {
 				
 			} else if (ApiType.equalsIgnoreCase("Post") && GetValue.equalsIgnoreCase("Result")) {
 
-				testhttpclientforPost(exData, sheetname, RLID);
+				apiUtil.testhttpclientforPost(exData, sheetname, RLID);
 
 				break;
 			}

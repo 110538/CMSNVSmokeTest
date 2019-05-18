@@ -11,9 +11,9 @@
         "broken" : 0
       },
       "time" : {
-        "start" : 1558127622209,
-        "stop" : 1558127632667,
-        "duration" : 10458
+        "start" : 1558193215083,
+        "stop" : 1558193224976,
+        "duration" : 9893
       }
     },
     "defects" : {
@@ -23,7 +23,7 @@
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "76c8451e15d8d73e",
+        "uid" : "2e06ff2cc2c18cb1",
         "title" : "Suite : Test",
         "statistic" : {
           "total" : 5,

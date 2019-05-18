@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd-cpd>
    <duplication lines="27" tokens="124">
-      <file line="689"
-            path="C:\Users\chaitanya\Desktop\Smoke Backup\AMCSmokeTest\src\main\java\com\cmstestbase\test\CMSTestBase.java"/>
-      <file line="935"
-            path="C:\Users\chaitanya\Desktop\Smoke Backup\AMCSmokeTest\src\main\java\com\cmstestbase\test\CMSTestBase.java"/>
-      <codefragment><![CDATA[					String line = "";
+      <file line="180"
+            path="C:\Users\chaitanya\Desktop\changed Code\AMCSmokeTestNew\src\main\java\com\testBase\test\ApiUtil.java"/>
+      <file line="426"
+            path="C:\Users\chaitanya\Desktop\changed Code\AMCSmokeTestNew\src\main\java\com\testBase\test\ApiUtil.java"/>
+      <codefragment><![CDATA[						String line = "";
 
-					while ((line = rd.readLine()) != null) {
+						while ((line = rd.readLine()) != null) {
 
-						textView_1.append(line);
+							textView_1.append(line);
 
-					}
-					if (textView_1.toString().contains("xml")) {
+						}
+						if (textView_1.toString().contains("xml")) {
 
-						text1 = convertxmltoJson(textView_1.toString());
+							text1 = convertxmltoJson(textView_1.toString());
 
-					} else if (!textView_1.toString().contains("xml")) {
+						} else if (!textView_1.toString().contains("xml")) {
 
-						jsonObj = new JSONObject();
-
-						text1 = textView_1.toString();
-
-						if (text1.startsWith("[")) {
-
-							textView_1.deleteCharAt(0);
-
-							textView_1.deleteCharAt(textView_1.length() - 1);
+							jsonObj = new JSONObject();
 
 							text1 = textView_1.toString();
-						}
 
-						System.out.println("response  is : =========" + text1.toString());]]></codefragment>
+							if (text1.startsWith("[")) {
+
+								textView_1.deleteCharAt(0);
+
+								textView_1.deleteCharAt(textView_1.length() - 1);
+
+								text1 = textView_1.toString();
+							}
+
+							System.out.println("response  is : =========" + text1.toString());]]></codefragment>
    </duplication>
-   <duplication lines="44" tokens="109">
-      <file line="735"
-            path="C:\Users\chaitanya\Desktop\Smoke Backup\AMCSmokeTest\src\main\java\com\cmstestbase\test\CMSTestBase.java"/>
-      <file line="986"
-            path="C:\Users\chaitanya\Desktop\Smoke Backup\AMCSmokeTest\src\main\java\com\cmstestbase\test\CMSTestBase.java"/>
-      <codefragment><![CDATA[		}
+   <duplication lines="44" tokens="117">
+      <file line="226"
+            path="C:\Users\chaitanya\Desktop\changed Code\AMCSmokeTestNew\src\main\java\com\testBase\test\ApiUtil.java"/>
+      <file line="477"
+            path="C:\Users\chaitanya\Desktop\changed Code\AMCSmokeTestNew\src\main\java\com\testBase\test\ApiUtil.java"/>
+      <codefragment><![CDATA[			}
 
-		// Reads the WOPData based the WOP sheetname
-		// Reads the MPData bases on the MP sheetname
+			// Reads the WOPData based the WOP sheetname
+			// Reads the MPData bases on the MP sheetname
 
-		if (finalApiType == finalApiCount) {
+			if (finalApiType == finalApiCount) {
 
-			if (sheetname.contains("WOP")) {
+				if (sheetname.contains("WOP")) {
 
-				sheetname = "wopData";
+					sheetname = "wopData";
 
-				sourceJsonObj = wopJsonObj;
+					sourceJsonObj = wopJsonObj;
 
-			} else if (sheetname.contains("MP")) {
+				} else if (sheetname.contains("MP")) {
 
-				sheetname = "mpData";
+					sheetname = "mpData";
 
-				sourceJsonObj = mpJsonObj;
+					sourceJsonObj = mpJsonObj;
+				}
+
+				excelUtils.readingexcelFiles(sheetname);
+
+				dataBook = excelUtils.getDataFromExcel(ExcelUtils.workbook, sheetname);
+
+				XSSFSheet sheet = ExcelUtils.workbook.getSheet(sheetname);
+
+				int rowCount = sheet.getPhysicalNumberOfRows();
+
+				for (int i = 1; i <= rowCount - 1; i++) {
+
+					// Calling the getValue Method to Read the WOPData
+					// Calling the getValue Method to Read the MPData
+
+					getValue(sheetname, dataBook[i][3].toString());
+
+				}
 			}
 
-			readingexcelFiles(sheetname);
-
-			dataBook = getDataFromExcel(workbook, sheetname);
-
-			XSSFSheet sheet = workbook.getSheet(sheetname);
-
-			int rowCount = sheet.getPhysicalNumberOfRows();
-
-			for (int i = 1; i <= rowCount - 1; i++) {
-
-				// Calling the getValue Method to Read the WOPData
-				// Calling the getValue Method to Read the MPData
-
-				getValue(sheetname, dataBook[i][3].toString());
-
-			}
+			return jsonObj;
 		}
 
-		return jsonObj;
-	}
+		// Clearing the JSon Object
 
-	// Clearing the JSon Object
-
-	public void clearJSon() {]]></codefragment>
+		public void clearJSon() {]]></codefragment>
    </duplication>
 </pmd-cpd>

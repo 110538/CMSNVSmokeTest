@@ -1,11 +1,11 @@
 {
-  "uid" : "3e4274f3da0594b",
+  "uid" : "802d59e7a9911371",
   "name" : "MediatorHierarchyValidationTest",
   "title" : "MediatorHierarchyValidationTest",
   "time" : {
-    "start" : 1558127624167,
-    "stop" : 1558127624652,
-    "duration" : 485
+    "start" : 1558193217042,
+    "stop" : 1558193217042,
+    "duration" : 0
   },
   "summary" : {
     "attachments" : 0,
@@ -16,7 +16,7 @@
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "76c8451e15d8d73e",
+    "uid" : "2e06ff2cc2c18cb1",
     "name" : "Suite : Test",
     "title" : "Suite : Test"
   },
@@ -24,8 +24,8 @@
     "name" : "logStep[Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]",
     "title" : "Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER",
     "time" : {
-      "start" : 1558127624167,
-      "stop" : 1558127624167,
+      "start" : 1558193217042,
+      "stop" : 1558193217042,
       "duration" : 0
     },
     "summary" : {
@@ -36,11 +36,11 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "logStep[Actual : AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER ]",
-    "title" : "Actual : AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER ",
+    "name" : "logStep[Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]",
+    "title" : "Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER",
     "time" : {
-      "start" : 1558127624167,
-      "stop" : 1558127624167,
+      "start" : 1558193217042,
+      "stop" : 1558193217042,
       "duration" : 0
     },
     "summary" : {
@@ -54,8 +54,8 @@
     "name" : "logStep[Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]",
     "title" : "Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER",
     "time" : {
-      "start" : 1558127624167,
-      "stop" : 1558127624167,
+      "start" : 1558193217042,
+      "stop" : 1558193217042,
       "duration" : 0
     },
     "summary" : {
@@ -66,11 +66,11 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "logStep[Actual : AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER ]",
-    "title" : "Actual : AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER ",
+    "name" : "logStep[Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]",
+    "title" : "Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER",
     "time" : {
-      "start" : 1558127624167,
-      "stop" : 1558127624167,
+      "start" : 1558193217042,
+      "stop" : 1558193217042,
       "duration" : 0
     },
     "summary" : {
@@ -109,14 +109,14 @@
     "name" : "framework",
     "value" : "TestNG"
   }, {
+    "name" : "thread",
+    "value" : "4600@MONO-HYD-LAP-41.main(1)"
+  }, {
     "name" : "suite-title",
     "value" : "Suite : Test"
   }, {
     "name" : "host",
     "value" : "MONO-HYD-LAP-41"
-  }, {
-    "name" : "thread",
-    "value" : "24024@MONO-HYD-LAP-41.main(1)"
   }, {
     "name" : "testClass",
     "value" : "com.runner.test.TestEvents"

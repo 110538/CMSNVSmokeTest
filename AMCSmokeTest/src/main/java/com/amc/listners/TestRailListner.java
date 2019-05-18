@@ -7,17 +7,20 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import com.cmstestbase.test.CMSTestBase;
 
-public class TestRailListner extends CMSTestBase implements ITestListener {
+import com.testBase.test.ExcelUtils;
 
+public class TestRailListner extends ExcelUtils implements ITestListener {
+
+	ExcelUtils excelutils = new ExcelUtils();
+	
 	HashMap<String, Integer> stringValue = null;
 	
 	Properties prop;
 
 	public TestRailListner() {
 	
-		stringValue = storeExcelDataInHashMap();
+		stringValue =excelutils.storeExcelDataInHashMap();
 		
 		prop = propHandler.get();
 	}
@@ -40,7 +43,7 @@ public class TestRailListner extends CMSTestBase implements ITestListener {
 	
 	public void onTestStart(ITestResult result) {
 		
-		System.out.println(result.getMethod()+"--Test case started");
+		System.out.println("Test case started");
 
 	}
 

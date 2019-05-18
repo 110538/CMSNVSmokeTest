@@ -5,15 +5,16 @@ import java.util.List;
 import java.util.Properties;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.IMethodInstance;
 import org.testng.IMethodInterceptor;
 import org.testng.ITestContext;
 
-import com.cmstestbase.test.CMSTestBase;
+import com.testBase.test.ExcelUtils;
 
-public class TestExecutionListner extends CMSTestBase implements IMethodInterceptor {
+public class TestExecutionListner extends ExcelUtils implements IMethodInterceptor {
 	
+	
+	ExcelUtils excelutils = new ExcelUtils();
 	
 	// Loads the Excel sheet from ConfigProperties file
 	// Loads the ExecutionModel sheet
@@ -28,17 +29,13 @@ public class TestExecutionListner extends CMSTestBase implements IMethodIntercep
 		
 		for (IMethodInstance method : methods) {
 		
-			initializeExcelSheet(prop.getProperty("TestExecutionFileName"));
+			workbook = excelutils.initializeExcelSheet(prop.getProperty("TestExecutionFileName"));
 			
 			XSSFSheet sheet;
 			
-			XSSFWorkbook workBook;
-			
 			String sheetName = "ExecutionModel";
 			
-			workBook = excelWorkBook.get();
-			
-			sheet = workBook.getSheet(sheetName);
+			sheet = workbook.getSheet(sheetName);
 			
 			int maxcount = sheet.getLastRowNum();
 			
@@ -46,11 +43,11 @@ public class TestExecutionListner extends CMSTestBase implements IMethodIntercep
 			
 				for (int testcase = 1; testcase <= maxcount; testcase++) {
 				
-					String testCaseID = getDataFromExcel(testcase, 0, sheetName);
+					String testCaseID = excelutils.getDataFromExcel(testcase, 0, sheetName);
 					
 					if (testCaseID.equalsIgnoreCase(method.getMethod().getMethodName())) {
 					
-						String row = getDataFromExcel(testcase, 1, sheetName);
+						String row = excelutils.getDataFromExcel(testcase, 1, sheetName);
 						
 						if (row.equalsIgnoreCase("Yes")) {
 						
