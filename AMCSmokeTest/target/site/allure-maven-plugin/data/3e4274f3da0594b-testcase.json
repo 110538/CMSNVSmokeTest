@@ -1,0 +1,125 @@
+{
+  "uid" : "3e4274f3da0594b",
+  "name" : "MediatorHierarchyValidationTest",
+  "title" : "MediatorHierarchyValidationTest",
+  "time" : {
+    "start" : 1558127624167,
+    "stop" : 1558127624652,
+    "duration" : 485
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "76c8451e15d8d73e",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]",
+    "title" : "Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER",
+    "time" : {
+      "start" : 1558127624167,
+      "stop" : 1558127624167,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Actual : AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER ]",
+    "title" : "Actual : AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER ",
+    "time" : {
+      "start" : 1558127624167,
+      "stop" : 1558127624167,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]",
+    "title" : "Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER",
+    "time" : {
+      "start" : 1558127624167,
+      "stop" : 1558127624167,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Actual : AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER ]",
+    "title" : "Actual : AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER ",
+    "time" : {
+      "start" : 1558127624167,
+      "stop" : 1558127624167,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "feature",
+    "value" : "CMSNV SMOKE"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "story",
+    "value" : "MEDIATOR ESB EVENTS"
+  }, {
+    "name" : "testMethod",
+    "value" : "MediatorHierarchyValidationTest"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-41"
+  }, {
+    "name" : "thread",
+    "value" : "24024@MONO-HYD-LAP-41.main(1)"
+  }, {
+    "name" : "testClass",
+    "value" : "com.runner.test.TestEvents"
+  } ],
+  "parameters" : [ ]
+}

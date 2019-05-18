@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1558163570481" stop="1558163616798" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1558163610090" stop="1558163610090" status="passed">
+            <name>WOPHierarchyValidationTest</name>
+            <title>WOPHierarchyValidationTest</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="WOPHierarchyValidationTest"/>
+                <label name="story" value="WOP ESB EVENTS"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="5960@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1558163610090" stop="1558163610090" status="passed">
+            <name>MPHierarchyValidationTest</name>
+            <title>MPHierarchyValidationTest</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="MPHierarchyValidationTest"/>
+                <label name="story" value="MP ESB EVENTS"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="5960@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1558163610090" stop="1558163610106" status="passed">
+            <name>MediatorHierarchyValidationTest</name>
+            <title>MediatorHierarchyValidationTest</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="MediatorHierarchyValidationTest"/>
+                <label name="story" value="MEDIATOR ESB EVENTS"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="5960@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1558163610106" stop="1558163615356" status="passed">
+            <name>CMSNVFieldValidationsWithWOPTest</name>
+            <title>CMSNV Field Validations With WOP Test</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="CMSNVFieldValidationsWithWOPTest"/>
+                <label name="story" value="CMSNV Field Validations With WOP"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="5960@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1558163615356" stop="1558163616782" status="passed">
+            <name>CMSNVFieldValidationsWithMPTest</name>
+            <title>CMSNV Field Validations With MP Test</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="CMSNVFieldValidationsWithMPTest"/>
+                <label name="story" value="CMSNV Field Validations With MP"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="5960@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

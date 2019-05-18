@@ -19,7 +19,7 @@ public class TestEvents extends CMSTestBase {
 	@BeforeTest()
 
 	public void connectESBDatabaseTest() throws Throwable {
-
+		System.gc();
 		utility.connectToEsbDatabase();
 
 	}

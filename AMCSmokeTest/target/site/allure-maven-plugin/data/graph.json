@@ -1,80 +1,58 @@
 {
   "testCases" : [ {
-    "uid" : "6d788bc51eda839a",
-    "name" : "closingbrowser",
-    "title" : "Closingbrowser",
-    "time" : {
-      "start" : 1558094852363,
-      "stop" : 1558094852363,
-      "duration" : 0
-    },
-    "severity" : "NORMAL",
-    "status" : "CANCELED"
-  }, {
-    "uid" : "c707e31dfd10e210",
-    "name" : "connectESBDatabaseTest",
-    "title" : "Connect ESB database test",
-    "time" : {
-      "start" : 1558094843257,
-      "stop" : 1558094843260,
-      "duration" : 3
-    },
-    "severity" : "NORMAL",
-    "status" : "BROKEN"
-  }, {
-    "uid" : "d221aa544729580a",
+    "uid" : "86317d83ca2885e",
     "name" : "WOPHierarchyValidationTest",
     "title" : "WOPHierarchyValidationTest",
     "time" : {
-      "start" : 1558094845886,
-      "stop" : 1558094845888,
-      "duration" : 2
+      "start" : 1558127622209,
+      "stop" : 1558127623681,
+      "duration" : 1472
     },
     "severity" : "NORMAL",
-    "status" : "CANCELED"
+    "status" : "PASSED"
   }, {
-    "uid" : "2b20b88cb6442c27",
+    "uid" : "6de259a21c7e9c8d",
     "name" : "MPHierarchyValidationTest",
     "title" : "MPHierarchyValidationTest",
     "time" : {
-      "start" : 1558094847587,
-      "stop" : 1558094847588,
-      "duration" : 1
+      "start" : 1558127623687,
+      "stop" : 1558127624167,
+      "duration" : 480
     },
     "severity" : "NORMAL",
-    "status" : "CANCELED"
+    "status" : "PASSED"
   }, {
-    "uid" : "2bc89ba635ca2bc2",
+    "uid" : "3e4274f3da0594b",
     "name" : "MediatorHierarchyValidationTest",
     "title" : "MediatorHierarchyValidationTest",
     "time" : {
-      "start" : 1558094848069,
-      "stop" : 1558094848070,
-      "duration" : 1
+      "start" : 1558127624167,
+      "stop" : 1558127624652,
+      "duration" : 485
     },
     "severity" : "NORMAL",
-    "status" : "CANCELED"
+    "status" : "PASSED"
   }, {
-    "uid" : "fbfeef0ccae1addb",
+    "uid" : "f1c21a5abdfa498d",
     "name" : "CMSNVFieldValidationsWithWOPTest",
     "title" : "CMSNV Field Validations With WOP Test",
     "time" : {
-      "start" : 1558094848576,
-      "stop" : 1558094848576,
-      "duration" : 0
+      "start" : 1558127624652,
+      "stop" : 1558127630935,
+      "duration" : 6283
     },
     "severity" : "NORMAL",
-    "status" : "CANCELED"
+    "status" : "PASSED"
   }, {
-    "uid" : "e563f4dd559b4971",
+    "uid" : "8726c82dd1aabec8",
     "name" : "CMSNVFieldValidationsWithMPTest",
     "title" : "CMSNV Field Validations With MP Test",
     "time" : {
-      "start" : 1558094849060,
-      "stop" : 1558094849061,
-      "duration" : 1
+      "start" : 1558127630944,
+      "stop" : 1558127632667,
+      "duration" : 1723
     },
     "severity" : "NORMAL",
-    "status" : "CANCELED"
+    "status" : "PASSED"
   } ]
 }

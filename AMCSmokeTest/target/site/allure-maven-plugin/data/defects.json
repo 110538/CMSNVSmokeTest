@@ -6,24 +6,6 @@
   }, {
     "title" : "Test defects",
     "status" : "BROKEN",
-    "defects" : [ {
-      "uid" : "938c495a33133a97",
-      "failure" : {
-        "message" : "OutOfMemoryError: Java heap space",
-        "stackTrace" : "java.lang.OutOfMemoryError: Java heap space\n\tat java.util.Arrays.copyOf(Arrays.java:3332)\n\tat java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)\n\tat java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:448)\n\tat java.lang.StringBuilder.append(StringBuilder.java:136)\n\tat java.lang.StringBuilder.append(StringBuilder.java:131)\n\tat java.util.AbstractCollection.toString(AbstractCollection.java:462)\n\tat com.cmstestbase.test.CMSTestBase.ConnectToESBDatabase(CMSTestBase.java:471)\n\tat com.cmstestbase.test.CMSTestBase.ConnectDBandExecuteESBQuery(CMSTestBase.java:331)\n\tat com.utils.test.Utility.connectToEsbDatabase(Utility.java:19)\n\tat com.runner.test.TestEvents.connectESBDatabaseTest(TestEvents.java:23)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\n\tat org.testng.TestRunner.beforeRun(TestRunner.java:529)\n\tat org.testng.TestRunner.run(TestRunner.java:497)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\n\tat org.testng.TestNG.run(TestNG.java:1017)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)\n"
-      },
-      "testCases" : [ {
-        "uid" : "c707e31dfd10e210",
-        "name" : "connectESBDatabaseTest",
-        "title" : "Connect ESB database test",
-        "time" : {
-          "start" : 1558094843257,
-          "stop" : 1558094843260,
-          "duration" : 3
-        },
-        "severity" : "NORMAL",
-        "status" : "BROKEN"
-      } ]
-    } ]
+    "defects" : [ ]
   } ]
 }

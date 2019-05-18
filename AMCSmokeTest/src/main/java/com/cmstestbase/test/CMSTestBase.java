@@ -74,6 +74,7 @@ public class CMSTestBase {
 	public static ArrayList<String> ActualEvents = new ArrayList<String>();
 	public static ArrayList<String> SourceEvents = new ArrayList<String>();
 	public static ArrayList<String> listEvents = new ArrayList<String>();
+	public static ArrayList<String> sourceList = new ArrayList<String>();
 	public static ArrayList<String> errors = new ArrayList<String>();
 	public static ArrayList<String> armeta = new ArrayList<String>();
 	public String FDID;
@@ -348,8 +349,6 @@ public class CMSTestBase {
 
 		String finalQuery = querySplits[0].toString() + FDID + querySplits[1].toString();
 
-		System.out.println("");
-
 		Date date = new Date();
 
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
@@ -372,9 +371,11 @@ public class CMSTestBase {
 
 		Date dateInAmerica = dateFormat.parse(sDateInAmerica); // Create a new Date object
 
-		String newcurrentDate = dateFormat.format(dateInAmerica);		
+		String newcurrentDate = dateFormat.format(dateInAmerica);
+
 
 		finalQuery = finalQuery.replaceAll("%s", newcurrentDate);
+		
 
 		return finalQuery;
 
@@ -434,88 +435,104 @@ public class CMSTestBase {
 
 		ResultSet rs = null;
 
-		rs = stmt.executeQuery(queryString);
+		rs = stmt.executeQuery(queryString.trim());
 
 		logStep("Query executed successfully");
 
 		//logger("Query executed successfully");
 
-		while (rs.next()) {
+		int armetacount=0;
+		int loop = 2;
+		outer:
+			while (rs.next()) {
+				armetacount=armetacount+1;
+				ResultSetMetaData metaData = rs.getMetaData();
 
-			ResultSetMetaData metaData = rs.getMetaData();
+				int count = metaData.getColumnCount(); // number of column
 
-			int count = metaData.getColumnCount(); // number of column
+				String columnName[] = new String[count];
 
-			String columnName[] = new String[count];
+				int line = 0;
 
-			int line = 0;
+				for (int data = 1; data <= count; data++) {
 
-			for (int data = 1; data <= count; data++) {
+					columnName[data - 1] = metaData.getColumnLabel(data);
 
-				columnName[data - 1] = metaData.getColumnLabel(data);
+					if(armetacount==1) {
 
-				armeta.add(columnName[data - 1]);
-
-				// Adding the ESB Events in listEvents ArryList
-
-				listEvents.add(rs.getString(data));
-
-				line = line + 1;
-
-				int loop = 1;
-
-				if (line == 4) {
-
-					// Adding the lisEvents to ActualEvents ArryList
-
-					ActualEvents.add(listEvents.toString());
-
-					if (listEvents.contains("AMCN.LCS.EVENT.GENERATOR.TO.XSLT.STAGE1") && loop == 1) {
-
-						SourceEvents.add(listEvents.toString());
-
-						// Storing the CMSNV ESB Payload Into a sourceData varaible
-
-						String sourceData = SourceEvents.get(SourceEvents.size() - 1);
-
-						String start = "<NS1:payload>";
-
-						sourceData = sourceData.substring(sourceData.indexOf("<NS1:payload>") + start.length(),
-								sourceData.indexOf("</NS1:payload>"));
-
-
-						System.out.println("Source xml  is :- " + sourceData);
-
-						sourceJsonObj = new JSONObject(sourceData.toString());
-
-						readingexcelFiles("source");
-
-						dataBook = getDataFromExcel(workbook, "source");
-
-						XSSFSheet sheet = workbook.getSheet("source");
-
-						int rowCount = sheet.getPhysicalNumberOfRows();
-
-						for (int i = 1; i <= rowCount - 1; i++) {
-
-							// Calling the GetValue Method to Read the CMSNV payload fields From Excel sheet
-
-							getValue("source", dataBook[i][0].toString());
-
-						}
-
-						loop = loop + 1;
-
-						line = 0;
-						listEvents.clear();
-						SourceEvents.clear();
-						break;
+						armeta.add(columnName[data - 1]);
 					}
+					// Adding the ESB Events in listEvents ArryList
+					if(data!=3) {
+						listEvents.add(rs.getString(data));
+					}
+					if(data>2) {
+						sourceList.add(rs.getString(data));
+					}
+					line = line + 1;
+
+
+
+					if (line == 4) {
+
+						// Adding the lisEvents to ActualEvents ArryList
+
+						ActualEvents.add(listEvents.toString());
+						listEvents.clear();
+						if (sourceList.contains("AMCN.LCS.EVENT.GENERATOR.TO.XSLT.STAGE1") && loop == 2) {
+
+							SourceEvents.add(sourceList.toString());
+
+							// Storing the CMSNV ESB Payload Into a sourceData varaible
+							sourceList.clear();
+
+							String sourceData = SourceEvents.get(SourceEvents.size() - 1);
+
+							SourceEvents.clear();
+
+							listEvents.clear();
+
+							if(loop==2) {
+								String start = "<NS1:payload>";
+
+								sourceData = sourceData.substring(sourceData.indexOf("<NS1:payload>") + start.length(),
+										sourceData.indexOf("</NS1:payload>"));
+
+
+								System.out.println("Source xml  is :- " + sourceData);
+
+								sourceJsonObj = new JSONObject(sourceData.toString());
+								sourceData = null;
+								readingexcelFiles("source");
+
+								dataBook = getDataFromExcel(workbook, "source");
+
+								XSSFSheet sheet = workbook.getSheet("source");
+
+								int rowCount = sheet.getPhysicalNumberOfRows();
+
+								for (int i = 1; i <= rowCount - 1; i++) {
+
+									// Calling the GetValue Method to Read the CMSNV payload fields From Excel sheet
+
+									getValue("source", dataBook[i][0].toString());
+
+								}
+							}
+							loop = loop + 1;
+
+							line = 0;
+
+
+							//break outer;
+						}else {
+							sourceList.clear();
+						}
+					}
+
 				}
 
 			}
-
-		}
 
 		con.close();
 
@@ -1259,7 +1276,9 @@ public class CMSTestBase {
 				} else if (JsonType.equalsIgnoreCase("wopdata")) {
 
 					for (String source : SourceParamvalues) {
-
+						if(paramText.equals("")) {
+							paramText="null";
+						}
 						if (paramText.equals(source)) {
 
 							logStep("CMSNV " + paramName + " ( " + source + " ) is Matched with WOP " + paramName
@@ -1437,7 +1456,7 @@ public class CMSTestBase {
 	// Push the Record
 	// Closes the File Maker
 
-	@BeforeSuite(enabled = true)
+	@BeforeSuite(enabled = false)
 
 	public void puhingRecords() throws Exception {
 
@@ -1600,7 +1619,7 @@ public class CMSTestBase {
 	// Logout From Nonprodportal Application
 	// Closes the Browser
 
-	@AfterSuite(enabled = true)
+	@AfterSuite(enabled = false)
 
 	public void closingbrowser() throws Exception {
 

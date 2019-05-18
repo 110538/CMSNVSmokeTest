@@ -1,0 +1,260 @@
+{
+  "uid" : "8726c82dd1aabec8",
+  "name" : "CMSNVFieldValidationsWithMPTest",
+  "title" : "CMSNV Field Validations With MP Test",
+  "time" : {
+    "start" : 1558127630944,
+    "stop" : 1558127632667,
+    "duration" : 1723
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 13
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "76c8451e15d8d73e",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading data from Excel]",
+    "title" : "Started reading data from Excel",
+    "time" : {
+      "start" : 1558127630993,
+      "stop" : 1558127630993,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Get the details from Excel]",
+    "title" : "Get the details from Excel",
+    "time" : {
+      "start" : 1558127631035,
+      "stop" : 1558127631035,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading data from Excel]",
+    "title" : "Started reading data from Excel",
+    "time" : {
+      "start" : 1558127631035,
+      "stop" : 1558127631035,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Http Client service is invoked]",
+    "title" : "Http Client service is invoked",
+    "time" : {
+      "start" : 1558127631082,
+      "stop" : 1558127631082,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : Content-Type------text/xml]",
+    "title" : "Headers are: : Content-Type------text/xml",
+    "time" : {
+      "start" : 1558127631082,
+      "stop" : 1558127631082,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Headers are: : SOAPAction------Retrieve]",
+    "title" : "Headers are: : SOAPAction------Retrieve",
+    "time" : {
+      "start" : 1558127631082,
+      "stop" : 1558127631082,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successully : ]",
+    "title" : "API Executed Successully : ",
+    "time" : {
+      "start" : 1558127631784,
+      "stop" : 1558127631784,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Esecuted Successfully]",
+    "title" : "API Esecuted Successfully",
+    "time" : {
+      "start" : 1558127631784,
+      "stop" : 1558127631784,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[{\"s:Envelope\":{\"xmlns:s\":\"http://schemas.xmlsoap.org/soap/envelope/\",\"s:Body\":{\"RetrieveResponse\":{\"xmlns\":\"urn:...]",
+    "title" : "{\"s:Envelope\":{\"xmlns:s\":\"http://schemas.xmlsoap.org/soap/envelope/\",\"s:Body\":{\"RetrieveResponse\":{\"xmlns\":\"urn:xytechsy...",
+    "time" : {
+      "start" : 1558127631784,
+      "stop" : 1558127631784,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[CMSNV Title ( Indecent Proposal ) is Matched with MP Title ( Indecent Proposal )]",
+    "title" : "CMSNV Title ( Indecent Proposal ) is Matched with MP Title ( Indecent Proposal )",
+    "time" : {
+      "start" : 1558127631937,
+      "stop" : 1558127631937,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[CMSNV RLA_RL_ASSET_ID ( RLA159855 ) is Matched with MP RLA_RL_ASSET_ID ( RLA159855 )]",
+    "title" : "CMSNV RLA_RL_ASSET_ID ( RLA159855 ) is Matched with MP RLA_RL_ASSET_ID ( RLA159855 )",
+    "time" : {
+      "start" : 1558127632006,
+      "stop" : 1558127632006,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[CMSNV PRODUCT_INTENTION ( AMC ) is Matched with MP PRODUCT_INTENTION ( AMC )]",
+    "title" : "CMSNV PRODUCT_INTENTION ( AMC ) is Matched with MP PRODUCT_INTENTION ( AMC )",
+    "time" : {
+      "start" : 1558127632069,
+      "stop" : 1558127632069,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[CMSNV Vendor ( Paramount Pictures Corporation ) is Matched with MP Vendor ( Paramount Pictures Corporation )]",
+    "title" : "CMSNV Vendor ( Paramount Pictures Corporation ) is Matched with MP Vendor ( Paramount Pictures Corporation )",
+    "time" : {
+      "start" : 1558127632147,
+      "stop" : 1558127632147,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "feature",
+    "value" : "CMSNV SMOKE"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "CMSNVFieldValidationsWithMPTest"
+  }, {
+    "name" : "story",
+    "value" : "CMSNV Field Validations With MP"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-41"
+  }, {
+    "name" : "thread",
+    "value" : "24024@MONO-HYD-LAP-41.main(1)"
+  }, {
+    "name" : "testClass",
+    "value" : "com.runner.test.TestEvents"
+  } ],
+  "parameters" : [ ]
+}

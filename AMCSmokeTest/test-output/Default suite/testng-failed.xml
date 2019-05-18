@@ -5,7 +5,6 @@
     <classes>
       <class name="com.runner.test.TestEvents">
         <methods>
-          <include name="CMSNVFieldValidationsWithMPTest"/>
           <include name="puhingRecords"/>
           <include name="connectESBDatabaseTest"/>
           <include name="closingbrowser"/>

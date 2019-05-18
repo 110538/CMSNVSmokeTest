@@ -1,0 +1,95 @@
+{
+  "uid" : "6de259a21c7e9c8d",
+  "name" : "MPHierarchyValidationTest",
+  "title" : "MPHierarchyValidationTest",
+  "time" : {
+    "start" : 1558127623687,
+    "stop" : 1558127624167,
+    "duration" : 480
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "76c8451e15d8d73e",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Expected :AMCN.EVENT.WOP.MP.PRODUCT.DATA]",
+    "title" : "Expected :AMCN.EVENT.WOP.MP.PRODUCT.DATA",
+    "time" : {
+      "start" : 1558127623688,
+      "stop" : 1558127623688,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Actual : AMCN.EVENT.WOP.MP.PRODUCT.DATA ]",
+    "title" : "Actual : AMCN.EVENT.WOP.MP.PRODUCT.DATA ",
+    "time" : {
+      "start" : 1558127623688,
+      "stop" : 1558127623688,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "story",
+    "value" : "MP ESB EVENTS"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "feature",
+    "value" : "CMSNV SMOKE"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "MPHierarchyValidationTest"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-41"
+  }, {
+    "name" : "thread",
+    "value" : "24024@MONO-HYD-LAP-41.main(1)"
+  }, {
+    "name" : "testClass",
+    "value" : "com.runner.test.TestEvents"
+  } ],
+  "parameters" : [ ]
+}

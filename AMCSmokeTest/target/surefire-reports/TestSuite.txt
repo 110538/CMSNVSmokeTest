@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 381.038 sec <<< FAILURE!
-connectESBDatabaseTest(com.runner.test.TestEvents)  Time elapsed: 370.725 sec  <<< FAILURE!
-java.lang.OutOfMemoryError: Java heap space
-	at java.util.Arrays.copyOf(Arrays.java:3332)
-	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
-	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:448)
-	at java.lang.StringBuilder.append(StringBuilder.java:136)
-	at java.lang.StringBuilder.append(StringBuilder.java:131)
-	at java.util.AbstractCollection.toString(AbstractCollection.java:462)
-	at com.cmstestbase.test.CMSTestBase.ConnectToESBDatabase(CMSTestBase.java:471)
-	at com.cmstestbase.test.CMSTestBase.ConnectDBandExecuteESBQuery(CMSTestBase.java:331)
-	at com.utils.test.Utility.connectToEsbDatabase(Utility.java:19)
-	at com.runner.test.TestEvents.connectESBDatabaseTest(TestEvents.java:23)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.839 sec

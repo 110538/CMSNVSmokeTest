@@ -40,7 +40,7 @@ public class TestRailListner extends CMSTestBase implements ITestListener {
 	
 	public void onTestStart(ITestResult result) {
 		
-		System.out.println("Test case started");
+		System.out.println(result.getMethod()+"--Test case started");
 
 	}
 

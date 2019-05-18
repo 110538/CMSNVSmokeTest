@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd-cpd>
    <duplication lines="27" tokens="124">
-      <file line="672"
-            path="C:\Users\chaitanya\eclipse-workspace\AMCSmokeTest\src\main\java\com\cmstestbase\test\CMSTestBase.java"/>
-      <file line="918"
-            path="C:\Users\chaitanya\eclipse-workspace\AMCSmokeTest\src\main\java\com\cmstestbase\test\CMSTestBase.java"/>
+      <file line="689"
+            path="C:\Users\chaitanya\Desktop\Smoke Backup\AMCSmokeTest\src\main\java\com\cmstestbase\test\CMSTestBase.java"/>
+      <file line="935"
+            path="C:\Users\chaitanya\Desktop\Smoke Backup\AMCSmokeTest\src\main\java\com\cmstestbase\test\CMSTestBase.java"/>
       <codefragment><![CDATA[					String line = "";
 
 					while ((line = rd.readLine()) != null) {
@@ -34,10 +34,10 @@
 						System.out.println("response  is : =========" + text1.toString());]]></codefragment>
    </duplication>
    <duplication lines="44" tokens="109">
-      <file line="718"
-            path="C:\Users\chaitanya\eclipse-workspace\AMCSmokeTest\src\main\java\com\cmstestbase\test\CMSTestBase.java"/>
-      <file line="969"
-            path="C:\Users\chaitanya\eclipse-workspace\AMCSmokeTest\src\main\java\com\cmstestbase\test\CMSTestBase.java"/>
+      <file line="735"
+            path="C:\Users\chaitanya\Desktop\Smoke Backup\AMCSmokeTest\src\main\java\com\cmstestbase\test\CMSTestBase.java"/>
+      <file line="986"
+            path="C:\Users\chaitanya\Desktop\Smoke Backup\AMCSmokeTest\src\main\java\com\cmstestbase\test\CMSTestBase.java"/>
       <codefragment><![CDATA[		}
 
 		// Reads the WOPData based the WOP sheetname

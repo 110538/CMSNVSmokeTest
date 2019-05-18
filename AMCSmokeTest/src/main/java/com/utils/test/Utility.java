@@ -32,20 +32,22 @@ public class Utility extends CMSTestBase {
 			
 			if (rowdata.contains(ExpectedEvents) && !rowdata.contains("Exception") && !rowdata.contains(".ACK")) {
 
-				rowdata = rowdata.replace("[", "").replace("]", " ").replace(",", " ");
+				rowdata = rowdata.replace("[", "").replace("]", " ");
 
-				String[] words = rowdata.split(" ");
+				String[] words = rowdata.split(",");
 
 				for (int j = 0; j <= words.length - 1; j++) {
 
-					if (ExpectedEvents.equalsIgnoreCase(words[j])) {
+					if (ExpectedEvents.equalsIgnoreCase(words[j].trim())) {
 
 						logStep("Expected :" + ExpectedEvents);
 
 						logStep("Actual :" + words[j]);
-
-						System.out.println("Expected :" + ExpectedEvents + "---->" + "Actual :" + words[j]);
-
+						System.out.println("-----------------------------------------------------------------");
+						
+						System.out.println("Expected Event  :" + ExpectedEvents + "---->" + "Actual Event :" + words[j]);
+						
+						System.out.println("-----------------------------------------------------------------");
 						break;
 					}
 				}
@@ -68,7 +70,11 @@ public class Utility extends CMSTestBase {
 
 						logStep("Expected :" + ExpectedEvents + "---->" + "Actual :" + words[k]);
 
+						System.out.println("-----------------------------------------------------------------");
+						
 						System.out.println("Expected :" + ExpectedEvents + "---->" + "Actual :" + words[k]);
+						
+						System.out.println("-----------------------------------------------------------------");
 
 						break;
 
