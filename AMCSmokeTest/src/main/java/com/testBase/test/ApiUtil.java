@@ -465,7 +465,7 @@ public class ApiUtil extends TestBase {
 					}
 				}
 
-				logStep("API Esecuted Successfully");
+				logStep("API Executed Successfully");
 
 				System.out.println("Api Executed successfully");
 
