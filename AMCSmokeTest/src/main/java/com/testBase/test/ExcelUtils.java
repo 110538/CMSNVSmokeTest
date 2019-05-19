@@ -84,7 +84,7 @@ public class ExcelUtils extends TestBase {
 
 		public String[][] readingExcel(String sheetName) {
 
-			logStep("Started reading data from Excel");
+			//logStep("Started reading data from Excel");
 
 			try {
 
