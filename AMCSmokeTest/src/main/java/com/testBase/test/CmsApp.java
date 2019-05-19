@@ -19,7 +19,7 @@ public class CmsApp extends NonProdPortal{
 	
 	
 	
-	@BeforeSuite(enabled = false)
+	@BeforeSuite(enabled = true)
 
 	public void puhingRecords() throws Exception {
 		
