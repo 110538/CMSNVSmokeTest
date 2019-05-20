@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeSuite;
 
 import com.objects.test.ObjectRepository;
 
-public class CmsApp extends NonProdPortal{
+public class CmsApp extends TestBase {
 	
 	//NonProdPortal nonprod = new NonProdPortal();
 	
@@ -21,7 +21,7 @@ public class CmsApp extends NonProdPortal{
 	
 	@BeforeSuite(enabled = true)
 
-	public void puhingRecords() throws Exception {
+	public void pushingRecords() throws Exception {
 		
 		System.out.println("Started Smkoe Test for CMSNV");
 
