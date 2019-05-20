@@ -26,7 +26,7 @@ public class TestEvents extends NonProdPortal {
 
 	public void connectESBDatabaseTest() throws Throwable {
 		
-		//cmsapp.puhingRecords();
+		cmsapp.puhingRecords();
 		
 		utility.connectToEsbDatabase();
 
