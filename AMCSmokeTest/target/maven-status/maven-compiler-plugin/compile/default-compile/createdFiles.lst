@@ -4,7 +4,6 @@ com\amc\listners\APIClient.class
 com\testBase\test\ApiUtil.class
 com\amc\listners\APIException.class
 com\testBase\test\ExcelUtils.class
-com\testBase\test\NonProdPortal.class
 com\amc\listners\TestExecutionListner.class
 com\objects\test\ObjectRepository.class
 com\testBase\test\CmsApp.class

@@ -1,11 +1,11 @@
 {
-  "uid" : "802d59e7a9911371",
+  "uid" : "3690c4eb1e584456",
   "name" : "MediatorHierarchyValidationTest",
   "title" : "MediatorHierarchyValidationTest",
   "time" : {
-    "start" : 1558193217042,
-    "stop" : 1558193217042,
-    "duration" : 0
+    "start" : 1558360837217,
+    "stop" : 1558360837220,
+    "duration" : 3
   },
   "summary" : {
     "attachments" : 0,
@@ -16,7 +16,7 @@
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "2e06ff2cc2c18cb1",
+    "uid" : "d240aab33a21c286",
     "name" : "Suite : Test",
     "title" : "Suite : Test"
   },
@@ -24,8 +24,8 @@
     "name" : "logStep[Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]",
     "title" : "Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER",
     "time" : {
-      "start" : 1558193217042,
-      "stop" : 1558193217042,
+      "start" : 1558360837218,
+      "stop" : 1558360837218,
       "duration" : 0
     },
     "summary" : {
@@ -39,8 +39,8 @@
     "name" : "logStep[Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]",
     "title" : "Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER",
     "time" : {
-      "start" : 1558193217042,
-      "stop" : 1558193217042,
+      "start" : 1558360837219,
+      "stop" : 1558360837219,
       "duration" : 0
     },
     "summary" : {
@@ -54,8 +54,8 @@
     "name" : "logStep[Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]",
     "title" : "Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER",
     "time" : {
-      "start" : 1558193217042,
-      "stop" : 1558193217042,
+      "start" : 1558360837219,
+      "stop" : 1558360837219,
       "duration" : 0
     },
     "summary" : {
@@ -69,8 +69,8 @@
     "name" : "logStep[Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]",
     "title" : "Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER",
     "time" : {
-      "start" : 1558193217042,
-      "stop" : 1558193217042,
+      "start" : 1558360837220,
+      "stop" : 1558360837220,
       "duration" : 0
     },
     "summary" : {
@@ -103,14 +103,14 @@
     "name" : "story",
     "value" : "MEDIATOR ESB EVENTS"
   }, {
+    "name" : "thread",
+    "value" : "19912@MONO-HYD-LAP-41.main(1)"
+  }, {
     "name" : "testMethod",
     "value" : "MediatorHierarchyValidationTest"
   }, {
     "name" : "framework",
     "value" : "TestNG"
-  }, {
-    "name" : "thread",
-    "value" : "4600@MONO-HYD-LAP-41.main(1)"
   }, {
     "name" : "suite-title",
     "value" : "Suite : Test"

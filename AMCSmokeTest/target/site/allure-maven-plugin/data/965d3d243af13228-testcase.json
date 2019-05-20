@@ -1,0 +1,305 @@
+{
+  "uid" : "965d3d243af13228",
+  "name" : "CMSNVFieldValidationsWithWOPTest",
+  "title" : "CMSNV Field Validations With WOP Test",
+  "time" : {
+    "start" : 1558360837808,
+    "stop" : 1558360843007,
+    "duration" : 5199
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 16
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "d240aab33a21c286",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Started reading data from Excel]",
+    "title" : "Started reading data from Excel",
+    "time" : {
+      "start" : 1558360837889,
+      "stop" : 1558360837889,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading data from Excel]",
+    "title" : "Started reading data from Excel",
+    "time" : {
+      "start" : 1558360837987,
+      "stop" : 1558360837987,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successfully]",
+    "title" : "API Executed Successfully",
+    "time" : {
+      "start" : 1558360839608,
+      "stop" : 1558360839608,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading data from Excel]",
+    "title" : "Started reading data from Excel",
+    "time" : {
+      "start" : 1558360839609,
+      "stop" : 1558360839609,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading data from Excel]",
+    "title" : "Started reading data from Excel",
+    "time" : {
+      "start" : 1558360839661,
+      "stop" : 1558360839661,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[API Executed Successfully]",
+    "title" : "API Executed Successfully",
+    "time" : {
+      "start" : 1558360841205,
+      "stop" : 1558360841205,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started executing API Testing]",
+    "title" : "Started executing API Testing",
+    "time" : {
+      "start" : 1558360841206,
+      "stop" : 1558360841206,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading data from Excel]",
+    "title" : "Started reading data from Excel",
+    "time" : {
+      "start" : 1558360841207,
+      "stop" : 1558360841207,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Verify Api Type is Get  or Post]",
+    "title" : "Verify Api Type is Get  or Post",
+    "time" : {
+      "start" : 1558360841255,
+      "stop" : 1558360841255,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Given url is Get API continue execution]",
+    "title" : "Given url is Get API continue execution",
+    "time" : {
+      "start" : 1558360841256,
+      "stop" : 1558360841256,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get]",
+    "title" : "Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get",
+    "time" : {
+      "start" : 1558360841258,
+      "stop" : 1558360841258,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[CMSNV Title ( Two and a Half Men: 07-021: Gumby with a Pokey ) is Matched with WOP Title ( Two and a Half Men: 0...]",
+    "title" : "CMSNV Title ( Two and a Half Men: 07-021: Gumby with a Pokey ) is Matched with WOP Title ( Two and a Half Men: 07-021: G...",
+    "time" : {
+      "start" : 1558360842818,
+      "stop" : 1558360842818,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[CMSNV RLA_RL_ASSET_ID ( RLA207824 ) is Matched with WOP RLA_RL_ASSET_ID ( RLA207824 )]",
+    "title" : "CMSNV RLA_RL_ASSET_ID ( RLA207824 ) is Matched with WOP RLA_RL_ASSET_ID ( RLA207824 )",
+    "time" : {
+      "start" : 1558360842860,
+      "stop" : 1558360842860,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[CMSNV Episode_Number ( 07-021 ) is Matched with WOP Episode_Number ( 07-021 )]",
+    "title" : "CMSNV Episode_Number ( 07-021 ) is Matched with WOP Episode_Number ( 07-021 )",
+    "time" : {
+      "start" : 1558360842911,
+      "stop" : 1558360842911,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[CMSNV Vendor ( Warner Bros. Domestic Television Distribution ) is Matched with WOP Vendor ( Warner Bros. Domesti...]",
+    "title" : "CMSNV Vendor ( Warner Bros. Domestic Television Distribution ) is Matched with WOP Vendor ( Warner Bros. Domestic Televi...",
+    "time" : {
+      "start" : 1558360842960,
+      "stop" : 1558360842960,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[CMSNV PRODUCT_INTENTION ( AMC ) is Matched with WOP PRODUCT_INTENTION ( AMC )]",
+    "title" : "CMSNV PRODUCT_INTENTION ( AMC ) is Matched with WOP PRODUCT_INTENTION ( AMC )",
+    "time" : {
+      "start" : 1558360843007,
+      "stop" : 1558360843007,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "CMSNVFieldValidationsWithWOPTest"
+  }, {
+    "name" : "feature",
+    "value" : "CMSNV SMOKE"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "thread",
+    "value" : "19912@MONO-HYD-LAP-41.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "story",
+    "value" : "CMSNV Field Validations With WOP"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-41"
+  }, {
+    "name" : "testClass",
+    "value" : "com.runner.test.TestEvents"
+  } ],
+  "parameters" : [ ]
+}

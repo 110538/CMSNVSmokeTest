@@ -1,22 +1,22 @@
 {
-  "uid" : "c4f8678dad5a4625",
-  "name" : "WOPHierarchyValidationTest",
-  "title" : "WOPHierarchyValidationTest",
+  "uid" : "1cf726eee56b9c69",
+  "name" : "CMSNVFieldValidationsWithMPTest",
+  "title" : "CMSNV Field Validations With MP Test",
   "time" : {
-    "start" : 1558193215083,
-    "stop" : 1558193215083,
-    "duration" : 0
+    "start" : 1558360843993,
+    "stop" : 1558360845340,
+    "duration" : 1347
   },
   "summary" : {
     "attachments" : 0,
-    "steps" : 8
+    "steps" : 7
   },
   "failure" : null,
   "description" : null,
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "2e06ff2cc2c18cb1",
+    "uid" : "d240aab33a21c286",
     "name" : "Suite : Test",
     "title" : "Suite : Test"
   },
@@ -24,8 +24,8 @@
     "name" : "logStep[Started reading data from Excel]",
     "title" : "Started reading data from Excel",
     "time" : {
-      "start" : 1558193186865,
-      "stop" : 1558193186865,
+      "start" : 1558360844035,
+      "stop" : 1558360844035,
       "duration" : 0
     },
     "summary" : {
@@ -39,8 +39,8 @@
     "name" : "logStep[Started reading data from Excel]",
     "title" : "Started reading data from Excel",
     "time" : {
-      "start" : 1558193187198,
-      "stop" : 1558193187198,
+      "start" : 1558360844075,
+      "stop" : 1558360844075,
       "duration" : 0
     },
     "summary" : {
@@ -51,11 +51,11 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "logStep[Started reading data from Excel]",
-    "title" : "Started reading data from Excel",
+    "name" : "logStep[API Executed Successfully]",
+    "title" : "API Executed Successfully",
     "time" : {
-      "start" : 1558193187318,
-      "stop" : 1558193187318,
+      "start" : 1558360845056,
+      "stop" : 1558360845056,
       "duration" : 0
     },
     "summary" : {
@@ -66,11 +66,11 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "logStep[Driver Loaded]",
-    "title" : "Driver Loaded",
+    "name" : "logStep[CMSNV Title ( Two and a Half Men: 07-021: Gumby with a Pokey ) is Matched with MP Title ( Two and a Half Men: 07...]",
+    "title" : "CMSNV Title ( Two and a Half Men: 07-021: Gumby with a Pokey ) is Matched with MP Title ( Two and a Half Men: 07-021: Gu...",
     "time" : {
-      "start" : 1558193187481,
-      "stop" : 1558193187481,
+      "start" : 1558360845175,
+      "stop" : 1558360845175,
       "duration" : 0
     },
     "summary" : {
@@ -81,11 +81,11 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "logStep[Connected to the Database..]",
-    "title" : "Connected to the Database..",
+    "name" : "logStep[CMSNV RLA_RL_ASSET_ID ( RLA207824 ) is Matched with MP RLA_RL_ASSET_ID ( RLA207824 )]",
+    "title" : "CMSNV RLA_RL_ASSET_ID ( RLA207824 ) is Matched with MP RLA_RL_ASSET_ID ( RLA207824 )",
     "time" : {
-      "start" : 1558193189340,
-      "stop" : 1558193189340,
+      "start" : 1558360845230,
+      "stop" : 1558360845230,
       "duration" : 0
     },
     "summary" : {
@@ -96,11 +96,11 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "logStep[Query executed successfully]",
-    "title" : "Query executed successfully",
+    "name" : "logStep[CMSNV PRODUCT_INTENTION ( AMC ) is Matched with MP PRODUCT_INTENTION ( AMC )]",
+    "title" : "CMSNV PRODUCT_INTENTION ( AMC ) is Matched with MP PRODUCT_INTENTION ( AMC )",
     "time" : {
-      "start" : 1558193208720,
-      "stop" : 1558193208720,
+      "start" : 1558360845288,
+      "stop" : 1558360845288,
       "duration" : 0
     },
     "summary" : {
@@ -111,26 +111,11 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "logStep[Expected :AMCN.EVENT.WOP.CREATE.VERSIONS]",
-    "title" : "Expected :AMCN.EVENT.WOP.CREATE.VERSIONS",
+    "name" : "logStep[CMSNV Vendor ( Warner Bros. Domestic Television Distribution ) is Matched with MP Vendor ( Warner Bros. Domestic...]",
+    "title" : "CMSNV Vendor ( Warner Bros. Domestic Television Distribution ) is Matched with MP Vendor ( Warner Bros. Domestic Televis...",
     "time" : {
-      "start" : 1558193215083,
-      "stop" : 1558193215083,
-      "duration" : 0
-    },
-    "summary" : {
-      "attachments" : 0,
-      "steps" : 0
-    },
-    "status" : "PASSED",
-    "attachments" : [ ],
-    "steps" : [ ]
-  }, {
-    "name" : "logStep[Actual :AMCN.EVENT.WOP.CREATE.VERSIONS]",
-    "title" : "Actual :AMCN.EVENT.WOP.CREATE.VERSIONS",
-    "time" : {
-      "start" : 1558193215083,
-      "stop" : 1558193215083,
+      "start" : 1558360845340,
+      "stop" : 1558360845340,
       "duration" : 0
     },
     "summary" : {
@@ -154,23 +139,23 @@
     "name" : "testGroup",
     "value" : "Test"
   }, {
-    "name" : "testMethod",
-    "value" : "WOPHierarchyValidationTest"
-  }, {
     "name" : "feature",
     "value" : "CMSNV SMOKE"
   }, {
     "name" : "suite-name",
     "value" : "Suite : Test"
   }, {
+    "name" : "testMethod",
+    "value" : "CMSNVFieldValidationsWithMPTest"
+  }, {
+    "name" : "thread",
+    "value" : "19912@MONO-HYD-LAP-41.main(1)"
+  }, {
     "name" : "story",
-    "value" : "WOP ESB EVENTS"
+    "value" : "CMSNV Field Validations With MP"
   }, {
     "name" : "framework",
     "value" : "TestNG"
-  }, {
-    "name" : "thread",
-    "value" : "4600@MONO-HYD-LAP-41.main(1)"
   }, {
     "name" : "suite-title",
     "value" : "Suite : Test"

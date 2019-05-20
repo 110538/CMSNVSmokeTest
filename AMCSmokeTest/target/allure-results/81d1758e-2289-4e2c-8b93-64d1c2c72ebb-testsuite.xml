@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1558360604597" stop="1558360845882" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : Test</name>
+    <title>Suite : Test</title>
+    <test-cases>
+        <test-case start="1558360835161" stop="1558360835167" status="passed">
+            <name>WOPHierarchyValidationTest</name>
+            <title>WOPHierarchyValidationTest</title>
+            <steps>
+                <step start="1558360628792" stop="1558360628793" status="passed">
+                    <name>logStep[Accepted Welcome screen]</name>
+                    <title>Accepted Welcome screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360628876" stop="1558360628876" status="passed">
+                    <name>logStep[Selected detectReceiver]</name>
+                    <title>Selected detectReceiver</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360630128" stop="1558360630128" status="passed">
+                    <name>logStep[Closed the Citrix Launcher]</name>
+                    <title>Closed the Citrix Launcher</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360630217" stop="1558360630217" status="passed">
+                    <name>logStep[Closed the Citrix Launcher]</name>
+                    <title>Closed the Citrix Launcher</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360630218" stop="1558360630218" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360632308" stop="1558360632308" status="passed">
+                    <name>logStep[Entered the AMC Credentials]</name>
+                    <title>Entered the AMC Credentials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360633988" stop="1558360633988" status="passed">
+                    <name>logStep[Selected the all apps button]</name>
+                    <title>Selected the all apps button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360634079" stop="1558360634079" status="passed">
+                    <name>logStep[Clicked on the CMS test application]</name>
+                    <title>Clicked on the CMS test application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360638806" stop="1558360638806" status="passed">
+                    <name>logStep[Selected the CMS file]</name>
+                    <title>Selected the CMS file</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360664801" stop="1558360664801" status="passed">
+                    <name>logStep[Entered the CMS credntials]</name>
+                    <title>Entered the CMS credntials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360668852" stop="1558360668852" status="passed">
+                    <name>logStep[Clicked the title verion button]</name>
+                    <title>Clicked the title verion button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360668852" stop="1558360668852" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360677551" stop="1558360677551" status="passed">
+                    <name>logStep[FDID reading from excel sheet]</name>
+                    <title>FDID reading from excel sheet</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360677551" stop="1558360677552" status="passed">
+                    <name>logStep[Entered FDID]</name>
+                    <title>Entered FDID</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360678902" stop="1558360678902" status="passed">
+                    <name>logStep[Accepted the title record]</name>
+                    <title>Accepted the title record</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360684284" stop="1558360684284" status="passed">
+                    <name>logStep[Navigated to data migration tab]</name>
+                    <title>Navigated to data migration tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360685535" stop="1558360685535" status="passed">
+                    <name>logStep[Pushed the record]</name>
+                    <title>Pushed the record</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360687652" stop="1558360687652" status="passed">
+                    <name>logStep[Accepted the migration request]</name>
+                    <title>Accepted the migration request</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360739198" stop="1558360739198" status="passed">
+                    <name>logStep[Selected the main menu in cms file maker]</name>
+                    <title>Selected the main menu in cms file maker</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360740231" stop="1558360740231" status="passed">
+                    <name>logStep[Quit the file maker]</name>
+                    <title>Quit the file maker</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360742931" stop="1558360742931" status="passed">
+                    <name>logStep[Acckonwledged the file maker ]</name>
+                    <title>Acckonwledged the file maker </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360744630" stop="1558360744630" status="passed">
+                    <name>logStep[Closed the file maker]</name>
+                    <title>Closed the file maker</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360748583" stop="1558360748583" status="passed">
+                    <name>logStep[Closed the file maker main window]</name>
+                    <title>Closed the file maker main window</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360748583" stop="1558360748583" status="passed">
+                    <name>logStep[Waiting some time before fecching ESB events ]</name>
+                    <title>Waiting some time before fecching ESB events </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360808585" stop="1558360808585" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360808745" stop="1558360808745" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360808888" stop="1558360808888" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360809066" stop="1558360809066" status="passed">
+                    <name>logStep[Driver Loaded]</name>
+                    <title>Driver Loaded</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360811042" stop="1558360811042" status="passed">
+                    <name>logStep[Connected to the Database..]</name>
+                    <title>Connected to the Database..</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360828155" stop="1558360828155" status="passed">
+                    <name>logStep[Query executed successfully]</name>
+                    <title>Query executed successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360835164" stop="1558360835164" status="passed">
+                    <name>logStep[Expected :AMCN.EVENT.WOP.CREATE.VERSIONS]</name>
+                    <title>Expected :AMCN.EVENT.WOP.CREATE.VERSIONS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360835165" stop="1558360835165" status="passed">
+                    <name>logStep[Actual :AMCN.EVENT.WOP.CREATE.VERSIONS]</name>
+                    <title>Actual :AMCN.EVENT.WOP.CREATE.VERSIONS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="Test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="WOPHierarchyValidationTest"/>
+                <label name="story" value="WOP ESB EVENTS"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="19912@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1558360836674" stop="1558360836676" status="passed">
+            <name>MPHierarchyValidationTest</name>
+            <title>MPHierarchyValidationTest</title>
+            <steps>
+                <step start="1558360836676" stop="1558360836676" status="passed">
+                    <name>logStep[Expected :AMCN.EVENT.WOP.MP.PRODUCT.DATA]</name>
+                    <title>Expected :AMCN.EVENT.WOP.MP.PRODUCT.DATA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360836676" stop="1558360836676" status="passed">
+                    <name>logStep[Actual :AMCN.EVENT.WOP.MP.PRODUCT.DATA]</name>
+                    <title>Actual :AMCN.EVENT.WOP.MP.PRODUCT.DATA</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="Test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="MPHierarchyValidationTest"/>
+                <label name="story" value="MP ESB EVENTS"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="19912@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1558360837217" stop="1558360837220" status="passed">
+            <name>MediatorHierarchyValidationTest</name>
+            <title>MediatorHierarchyValidationTest</title>
+            <steps>
+                <step start="1558360837218" stop="1558360837218" status="passed">
+                    <name>logStep[Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]</name>
+                    <title>Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360837219" stop="1558360837219" status="passed">
+                    <name>logStep[Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]</name>
+                    <title>Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360837219" stop="1558360837219" status="passed">
+                    <name>logStep[Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]</name>
+                    <title>Expected :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360837220" stop="1558360837220" status="passed">
+                    <name>logStep[Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER]</name>
+                    <title>Actual :AMCN.EVERTZ.MEDIATOR.REGISTRATION.TO.ADAPTER</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="Test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="MediatorHierarchyValidationTest"/>
+                <label name="story" value="MEDIATOR ESB EVENTS"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="19912@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1558360837808" stop="1558360843007" status="passed">
+            <name>CMSNVFieldValidationsWithWOPTest</name>
+            <title>CMSNV Field Validations With WOP Test</title>
+            <steps>
+                <step start="1558360837889" stop="1558360837889" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360837987" stop="1558360837987" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360839608" stop="1558360839608" status="passed">
+                    <name>logStep[API Executed Successfully]</name>
+                    <title>API Executed Successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360839609" stop="1558360839609" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360839661" stop="1558360839661" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360841205" stop="1558360841205" status="passed">
+                    <name>logStep[API Executed Successfully]</name>
+                    <title>API Executed Successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360841206" stop="1558360841206" status="passed">
+                    <name>logStep[Started executing API Testing]</name>
+                    <title>Started executing API Testing</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360841207" stop="1558360841207" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360841255" stop="1558360841255" status="passed">
+                    <name>logStep[Verify Api Type is Get  or Post]</name>
+                    <title>Verify Api Type is Get  or Post</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360841256" stop="1558360841256" status="passed">
+                    <name>logStep[Given url is Get API continue execution]</name>
+                    <title>Given url is Get API continue execution</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360841258" stop="1558360841258" status="passed">
+                    <name>logStep[Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get]</name>
+                    <title>Given API is : https://api.us.apiconnect.ibmcloud.com/amc-networks-inc-dev/asit/1.2.0/adam/get</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360842818" stop="1558360842818" status="passed">
+                    <name>logStep[CMSNV Title ( Two and a Half Men: 07-021: Gumby with a Pokey ) is Matched with WOP Title ( Two and a Half Men: 0...]</name>
+                    <title>CMSNV Title ( Two and a Half Men: 07-021: Gumby with a Pokey ) is Matched with WOP Title ( Two and a Half Men: 07-021: G...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360842860" stop="1558360842860" status="passed">
+                    <name>logStep[CMSNV RLA_RL_ASSET_ID ( RLA207824 ) is Matched with WOP RLA_RL_ASSET_ID ( RLA207824 )]</name>
+                    <title>CMSNV RLA_RL_ASSET_ID ( RLA207824 ) is Matched with WOP RLA_RL_ASSET_ID ( RLA207824 )</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360842911" stop="1558360842911" status="passed">
+                    <name>logStep[CMSNV Episode_Number ( 07-021 ) is Matched with WOP Episode_Number ( 07-021 )]</name>
+                    <title>CMSNV Episode_Number ( 07-021 ) is Matched with WOP Episode_Number ( 07-021 )</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360842960" stop="1558360842960" status="passed">
+                    <name>logStep[CMSNV Vendor ( Warner Bros. Domestic Television Distribution ) is Matched with WOP Vendor ( Warner Bros. Domesti...]</name>
+                    <title>CMSNV Vendor ( Warner Bros. Domestic Television Distribution ) is Matched with WOP Vendor ( Warner Bros. Domestic Televi...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360843007" stop="1558360843007" status="passed">
+                    <name>logStep[CMSNV PRODUCT_INTENTION ( AMC ) is Matched with WOP PRODUCT_INTENTION ( AMC )]</name>
+                    <title>CMSNV PRODUCT_INTENTION ( AMC ) is Matched with WOP PRODUCT_INTENTION ( AMC )</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="Test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="CMSNVFieldValidationsWithWOPTest"/>
+                <label name="story" value="CMSNV Field Validations With WOP"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="19912@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1558360843993" stop="1558360845340" status="passed">
+            <name>CMSNVFieldValidationsWithMPTest</name>
+            <title>CMSNV Field Validations With MP Test</title>
+            <steps>
+                <step start="1558360844035" stop="1558360844035" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360844075" stop="1558360844075" status="passed">
+                    <name>logStep[Started reading data from Excel]</name>
+                    <title>Started reading data from Excel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360845056" stop="1558360845056" status="passed">
+                    <name>logStep[API Executed Successfully]</name>
+                    <title>API Executed Successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360845175" stop="1558360845175" status="passed">
+                    <name>logStep[CMSNV Title ( Two and a Half Men: 07-021: Gumby with a Pokey ) is Matched with MP Title ( Two and a Half Men: 07...]</name>
+                    <title>CMSNV Title ( Two and a Half Men: 07-021: Gumby with a Pokey ) is Matched with MP Title ( Two and a Half Men: 07-021: Gu...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360845230" stop="1558360845230" status="passed">
+                    <name>logStep[CMSNV RLA_RL_ASSET_ID ( RLA207824 ) is Matched with MP RLA_RL_ASSET_ID ( RLA207824 )]</name>
+                    <title>CMSNV RLA_RL_ASSET_ID ( RLA207824 ) is Matched with MP RLA_RL_ASSET_ID ( RLA207824 )</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360845288" stop="1558360845288" status="passed">
+                    <name>logStep[CMSNV PRODUCT_INTENTION ( AMC ) is Matched with MP PRODUCT_INTENTION ( AMC )]</name>
+                    <title>CMSNV PRODUCT_INTENTION ( AMC ) is Matched with MP PRODUCT_INTENTION ( AMC )</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1558360845340" stop="1558360845340" status="passed">
+                    <name>logStep[CMSNV Vendor ( Warner Bros. Domestic Television Distribution ) is Matched with MP Vendor ( Warner Bros. Domestic...]</name>
+                    <title>CMSNV Vendor ( Warner Bros. Domestic Television Distribution ) is Matched with MP Vendor ( Warner Bros. Domestic Televis...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="Test"/>
+                <label name="testClass" value="com.runner.test.TestEvents"/>
+                <label name="testMethod" value="CMSNVFieldValidationsWithMPTest"/>
+                <label name="story" value="CMSNV Field Validations With MP"/>
+                <label name="feature" value="CMSNV SMOKE"/>
+                <label name="host" value="MONO-HYD-LAP-41"/>
+                <label name="thread" value="19912@MONO-HYD-LAP-41.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

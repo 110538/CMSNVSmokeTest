@@ -144,21 +144,21 @@
 <a class="jxr_linenumber" name="134" href="#134">134</a> 
 <a class="jxr_linenumber" name="135" href="#135">135</a> 						<strong class="jxr_keyword">if</strong> (cTypes[i].trim().contains(<span class="jxr_string">"Authorization"</span>)) {
 <a class="jxr_linenumber" name="136" href="#136">136</a> 
-<a class="jxr_linenumber" name="137" href="#137">137</a> 							logStep(<span class="jxr_string">"Using Access tokena as Bearer : "</span> + accessToken);
+<a class="jxr_linenumber" name="137" href="#137">137</a> 							<em class="jxr_comment">//logStep("Using Access tokena as Bearer : " + accessToken);</em>
 <a class="jxr_linenumber" name="138" href="#138">138</a> 
-<a class="jxr_linenumber" name="139" href="#139">139</a> 							logStep(<span class="jxr_string">"Headers are: : "</span> + cTypes[i] + <span class="jxr_string">"------"</span> + hTypes[i] + <span class="jxr_string">" "</span> + accessToken);
+<a class="jxr_linenumber" name="139" href="#139">139</a> 							<em class="jxr_comment">//logStep("Headers are: : " + cTypes[i] + "------" + hTypes[i] + " " + accessToken);</em>
 <a class="jxr_linenumber" name="140" href="#140">140</a> 
 <a class="jxr_linenumber" name="141" href="#141">141</a> 							request.addHeader(cTypes[i], hTypes[i] + <span class="jxr_string">" "</span> + accessToken);
 <a class="jxr_linenumber" name="142" href="#142">142</a> 						} <strong class="jxr_keyword">else</strong> <strong class="jxr_keyword">if</strong> (cTypes[i].trim().contains(<span class="jxr_string">"auth2"</span>)) {
 <a class="jxr_linenumber" name="143" href="#143">143</a> 
-<a class="jxr_linenumber" name="144" href="#144">144</a> 							logStep(<span class="jxr_string">"Using Access tokena as Bearer : "</span> + token);
+<a class="jxr_linenumber" name="144" href="#144">144</a> 							<em class="jxr_comment">//logStep("Using Access tokena as Bearer : " + token);</em>
 <a class="jxr_linenumber" name="145" href="#145">145</a> 
-<a class="jxr_linenumber" name="146" href="#146">146</a> 							logStep(<span class="jxr_string">"Headers are: : "</span> + cTypes[i] + <span class="jxr_string">"------"</span> + hTypes[i] + <span class="jxr_string">" "</span> + token);
+<a class="jxr_linenumber" name="146" href="#146">146</a> 							<em class="jxr_comment">//logStep("Headers are: : " + cTypes[i] + "------" + hTypes[i] + " " + token);</em>
 <a class="jxr_linenumber" name="147" href="#147">147</a> 
 <a class="jxr_linenumber" name="148" href="#148">148</a> 							request.addHeader(cTypes[i], hTypes[i] + <span class="jxr_string">" "</span> + token);
 <a class="jxr_linenumber" name="149" href="#149">149</a> 						} <strong class="jxr_keyword">else</strong> {
 <a class="jxr_linenumber" name="150" href="#150">150</a> 
-<a class="jxr_linenumber" name="151" href="#151">151</a> 							logStep(<span class="jxr_string">"Headers are: : "</span> + cTypes[i] + <span class="jxr_string">"------"</span> + hTypes[i]);
+<a class="jxr_linenumber" name="151" href="#151">151</a> 							<em class="jxr_comment">//logStep("Headers are: : " + cTypes[i] + "------" + hTypes[i]);</em>
 <a class="jxr_linenumber" name="152" href="#152">152</a> 
 <a class="jxr_linenumber" name="153" href="#153">153</a> 							request.addHeader(cTypes[i], hTypes[i]);
 <a class="jxr_linenumber" name="154" href="#154">154</a> 						}
@@ -167,11 +167,11 @@
 <a class="jxr_linenumber" name="157" href="#157">157</a> 
 <a class="jxr_linenumber" name="158" href="#158">158</a> 					HttpResponse response = client.execute(request);
 <a class="jxr_linenumber" name="159" href="#159">159</a> 
-<a class="jxr_linenumber" name="160" href="#160">160</a> 					logStep(<span class="jxr_string">"Execution Completed and reading response now"</span>);
+<a class="jxr_linenumber" name="160" href="#160">160</a> 					<em class="jxr_comment">//logStep("Execution Completed and reading response now");</em>
 <a class="jxr_linenumber" name="161" href="#161">161</a> 
 <a class="jxr_linenumber" name="162" href="#162">162</a> 					BufferedReader rd = <strong class="jxr_keyword">new</strong> BufferedReader(<strong class="jxr_keyword">new</strong> InputStreamReader(response.getEntity().getContent()));
 <a class="jxr_linenumber" name="163" href="#163">163</a> 
-<a class="jxr_linenumber" name="164" href="#164">164</a> 					logStep(<span class="jxr_string">"Verify Status code in response"</span>);
+<a class="jxr_linenumber" name="164" href="#164">164</a> 					<em class="jxr_comment">//logStep("Verify Status code in response");</em>
 <a class="jxr_linenumber" name="165" href="#165">165</a> 
 <a class="jxr_linenumber" name="166" href="#166">166</a> 					<strong class="jxr_keyword">if</strong> (response.getStatusLine().getStatusCode() != 200) {
 <a class="jxr_linenumber" name="167" href="#167">167</a> 
@@ -181,7 +181,7 @@
 <a class="jxr_linenumber" name="171" href="#171">171</a> 
 <a class="jxr_linenumber" name="172" href="#172">172</a> 						System.out.println(error);
 <a class="jxr_linenumber" name="173" href="#173">173</a> 
-<a class="jxr_linenumber" name="174" href="#174">174</a> 						logStep(error.toString());
+<a class="jxr_linenumber" name="174" href="#174">174</a> 						<em class="jxr_comment">//logStep(error.toString());</em>
 <a class="jxr_linenumber" name="175" href="#175">175</a> 
 <a class="jxr_linenumber" name="176" href="#176">176</a> 						<strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> RuntimeException(
 <a class="jxr_linenumber" name="177" href="#177">177</a> 								<span class="jxr_string">"Failed : HTTP error code : "</span> + response.getStatusLine().getStatusCode());
@@ -303,13 +303,13 @@
 <a class="jxr_linenumber" name="293" href="#293">293</a> 
 <a class="jxr_linenumber" name="294" href="#294">294</a> 			clearJSon();
 <a class="jxr_linenumber" name="295" href="#295">295</a> 
-<a class="jxr_linenumber" name="296" href="#296">296</a> 			logStep(<span class="jxr_string">"Get the details from Excel"</span>);
+<a class="jxr_linenumber" name="296" href="#296">296</a> 			<em class="jxr_comment">//logStep("Get the details from Excel");</em>
 <a class="jxr_linenumber" name="297" href="#297">297</a> 
 <a class="jxr_linenumber" name="298" href="#298">298</a> 			String reqExcel =excelUtils.excelData[lineNumber][4].toString();
 <a class="jxr_linenumber" name="299" href="#299">299</a> 
 <a class="jxr_linenumber" name="300" href="#300">300</a> 			addparamvaluesinRequest(lineNumber, excelUtils.excelData[lineNumber][4].toString(), sheetname, RLID);
 <a class="jxr_linenumber" name="301" href="#301">301</a> 
-<a class="jxr_linenumber" name="302" href="#302">302</a> 			logStep(<span class="jxr_string">"Http Client service is invoked"</span>);
+<a class="jxr_linenumber" name="302" href="#302">302</a> 			<em class="jxr_comment">//logStep("Http Client service is invoked");</em>
 <a class="jxr_linenumber" name="303" href="#303">303</a> 
 <a class="jxr_linenumber" name="304" href="#304">304</a> 			HttpClient client = HttpClients.createDefault();
 <a class="jxr_linenumber" name="305" href="#305">305</a> 
@@ -329,7 +329,7 @@
 <a class="jxr_linenumber" name="319" href="#319">319</a> 
 <a class="jxr_linenumber" name="320" href="#320">320</a> 				} <strong class="jxr_keyword">else</strong> <strong class="jxr_keyword">if</strong> (apirequest.contains(<span class="jxr_string">"&amp;"</span>) &amp;&amp; !reqExcel.equalsIgnoreCase(<span class="jxr_string">"externalFile"</span>)) {
 <a class="jxr_linenumber" name="321" href="#321">321</a> 
-<a class="jxr_linenumber" name="322" href="#322">322</a> 					logStep(<span class="jxr_string">"apirequest is  : --"</span> + apirequest);
+<a class="jxr_linenumber" name="322" href="#322">322</a> 					<em class="jxr_comment">//logStep("apirequest is  : --" + apirequest);</em>
 <a class="jxr_linenumber" name="323" href="#323">323</a> 
 <a class="jxr_linenumber" name="324" href="#324">324</a> 					nameValuePairs = <strong class="jxr_keyword">new</strong> ArrayList&lt;NameValuePair&gt;();
 <a class="jxr_linenumber" name="325" href="#325">325</a> 
@@ -402,7 +402,7 @@
 <a class="jxr_linenumber" name="392" href="#392">392</a> 
 <a class="jxr_linenumber" name="393" href="#393">393</a> 						} <strong class="jxr_keyword">else</strong> {
 <a class="jxr_linenumber" name="394" href="#394">394</a> 
-<a class="jxr_linenumber" name="395" href="#395">395</a> 							logStep(<span class="jxr_string">"Headers are: : "</span> + cTypes[i] + <span class="jxr_string">"------"</span> + hTypes[i]);
+<a class="jxr_linenumber" name="395" href="#395">395</a> 							<em class="jxr_comment">//logStep("Headers are: : " + cTypes[i] + "------" + hTypes[i]);</em>
 <a class="jxr_linenumber" name="396" href="#396">396</a> 
 <a class="jxr_linenumber" name="397" href="#397">397</a> 							post.addHeader(cTypes[i], hTypes[i]);
 <a class="jxr_linenumber" name="398" href="#398">398</a> 						}
@@ -425,13 +425,13 @@
 <a class="jxr_linenumber" name="415" href="#415">415</a> 
 <a class="jxr_linenumber" name="416" href="#416">416</a> 					System.out.println(error);
 <a class="jxr_linenumber" name="417" href="#417">417</a> 
-<a class="jxr_linenumber" name="418" href="#418">418</a> 					logStep(error.toString());
+<a class="jxr_linenumber" name="418" href="#418">418</a> 					<em class="jxr_comment">//logStep(error.toString());</em>
 <a class="jxr_linenumber" name="419" href="#419">419</a> 
 <a class="jxr_linenumber" name="420" href="#420">420</a> 					<strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> RuntimeException(<span class="jxr_string">"Failed : HTTP error code : "</span> + response.getStatusLine().getStatusCode());
 <a class="jxr_linenumber" name="421" href="#421">421</a> 
 <a class="jxr_linenumber" name="422" href="#422">422</a> 				} <strong class="jxr_keyword">else</strong> {
 <a class="jxr_linenumber" name="423" href="#423">423</a> 
-<a class="jxr_linenumber" name="424" href="#424">424</a> 					logStep(<span class="jxr_string">"API Executed Successully : "</span>);
+<a class="jxr_linenumber" name="424" href="#424">424</a> 					<em class="jxr_comment">//logStep("API Executed Successully : ");</em>
 <a class="jxr_linenumber" name="425" href="#425">425</a> 
 <a class="jxr_linenumber" name="426" href="#426">426</a> 					String line = <span class="jxr_string">""</span>;
 <a class="jxr_linenumber" name="427" href="#427">427</a> 
@@ -475,11 +475,11 @@
 <a class="jxr_linenumber" name="465" href="#465">465</a> 					}
 <a class="jxr_linenumber" name="466" href="#466">466</a> 				}
 <a class="jxr_linenumber" name="467" href="#467">467</a> 
-<a class="jxr_linenumber" name="468" href="#468">468</a> 				logStep(<span class="jxr_string">"API Esecuted Successfully"</span>);
+<a class="jxr_linenumber" name="468" href="#468">468</a> 				logStep(<span class="jxr_string">"API Executed Successfully"</span>);
 <a class="jxr_linenumber" name="469" href="#469">469</a> 
 <a class="jxr_linenumber" name="470" href="#470">470</a> 				System.out.println(<span class="jxr_string">"Api Executed successfully"</span>);
 <a class="jxr_linenumber" name="471" href="#471">471</a> 
-<a class="jxr_linenumber" name="472" href="#472">472</a> 				logStep(jsonObj.toString());
+<a class="jxr_linenumber" name="472" href="#472">472</a> 				<em class="jxr_comment">//logStep(jsonObj.toString());</em>
 <a class="jxr_linenumber" name="473" href="#473">473</a> 
 <a class="jxr_linenumber" name="474" href="#474">474</a> 			} <strong class="jxr_keyword">catch</strong> (IOException e) {
 <a class="jxr_linenumber" name="475" href="#475">475</a> 

@@ -12,9 +12,9 @@ import org.sikuli.script.Screen;
 
 import com.testBase.test.TestBase;
 import com.testBase.test.ExcelUtils;
-import com.testBase.test.NonProdPortal;
 
-public class ObjectRepository extends NonProdPortal {
+
+public class ObjectRepository extends TestBase {
 
 	ExcelUtils excelUtils =new ExcelUtils();
 	

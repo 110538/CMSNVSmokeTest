@@ -1,0 +1,545 @@
+{
+  "uid" : "8b7821a786d955ab",
+  "name" : "WOPHierarchyValidationTest",
+  "title" : "WOPHierarchyValidationTest",
+  "time" : {
+    "start" : 1558360835161,
+    "stop" : 1558360835167,
+    "duration" : 6
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 32
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "d240aab33a21c286",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test"
+  },
+  "steps" : [ {
+    "name" : "logStep[Accepted Welcome screen]",
+    "title" : "Accepted Welcome screen",
+    "time" : {
+      "start" : 1558360628792,
+      "stop" : 1558360628793,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Selected detectReceiver]",
+    "title" : "Selected detectReceiver",
+    "time" : {
+      "start" : 1558360628876,
+      "stop" : 1558360628876,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Closed the Citrix Launcher]",
+    "title" : "Closed the Citrix Launcher",
+    "time" : {
+      "start" : 1558360630128,
+      "stop" : 1558360630128,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Closed the Citrix Launcher]",
+    "title" : "Closed the Citrix Launcher",
+    "time" : {
+      "start" : 1558360630217,
+      "stop" : 1558360630217,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading data from Excel]",
+    "title" : "Started reading data from Excel",
+    "time" : {
+      "start" : 1558360630218,
+      "stop" : 1558360630218,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Entered the AMC Credentials]",
+    "title" : "Entered the AMC Credentials",
+    "time" : {
+      "start" : 1558360632308,
+      "stop" : 1558360632308,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Selected the all apps button]",
+    "title" : "Selected the all apps button",
+    "time" : {
+      "start" : 1558360633988,
+      "stop" : 1558360633988,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Clicked on the CMS test application]",
+    "title" : "Clicked on the CMS test application",
+    "time" : {
+      "start" : 1558360634079,
+      "stop" : 1558360634079,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Selected the CMS file]",
+    "title" : "Selected the CMS file",
+    "time" : {
+      "start" : 1558360638806,
+      "stop" : 1558360638806,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Entered the CMS credntials]",
+    "title" : "Entered the CMS credntials",
+    "time" : {
+      "start" : 1558360664801,
+      "stop" : 1558360664801,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Clicked the title verion button]",
+    "title" : "Clicked the title verion button",
+    "time" : {
+      "start" : 1558360668852,
+      "stop" : 1558360668852,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading data from Excel]",
+    "title" : "Started reading data from Excel",
+    "time" : {
+      "start" : 1558360668852,
+      "stop" : 1558360668852,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[FDID reading from excel sheet]",
+    "title" : "FDID reading from excel sheet",
+    "time" : {
+      "start" : 1558360677551,
+      "stop" : 1558360677551,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Entered FDID]",
+    "title" : "Entered FDID",
+    "time" : {
+      "start" : 1558360677551,
+      "stop" : 1558360677552,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Accepted the title record]",
+    "title" : "Accepted the title record",
+    "time" : {
+      "start" : 1558360678902,
+      "stop" : 1558360678902,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Navigated to data migration tab]",
+    "title" : "Navigated to data migration tab",
+    "time" : {
+      "start" : 1558360684284,
+      "stop" : 1558360684284,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Pushed the record]",
+    "title" : "Pushed the record",
+    "time" : {
+      "start" : 1558360685535,
+      "stop" : 1558360685535,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Accepted the migration request]",
+    "title" : "Accepted the migration request",
+    "time" : {
+      "start" : 1558360687652,
+      "stop" : 1558360687652,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Selected the main menu in cms file maker]",
+    "title" : "Selected the main menu in cms file maker",
+    "time" : {
+      "start" : 1558360739198,
+      "stop" : 1558360739198,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Quit the file maker]",
+    "title" : "Quit the file maker",
+    "time" : {
+      "start" : 1558360740231,
+      "stop" : 1558360740231,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Acckonwledged the file maker ]",
+    "title" : "Acckonwledged the file maker ",
+    "time" : {
+      "start" : 1558360742931,
+      "stop" : 1558360742931,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Closed the file maker]",
+    "title" : "Closed the file maker",
+    "time" : {
+      "start" : 1558360744630,
+      "stop" : 1558360744630,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Closed the file maker main window]",
+    "title" : "Closed the file maker main window",
+    "time" : {
+      "start" : 1558360748583,
+      "stop" : 1558360748583,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Waiting some time before fecching ESB events ]",
+    "title" : "Waiting some time before fecching ESB events ",
+    "time" : {
+      "start" : 1558360748583,
+      "stop" : 1558360748583,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading data from Excel]",
+    "title" : "Started reading data from Excel",
+    "time" : {
+      "start" : 1558360808585,
+      "stop" : 1558360808585,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading data from Excel]",
+    "title" : "Started reading data from Excel",
+    "time" : {
+      "start" : 1558360808745,
+      "stop" : 1558360808745,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Started reading data from Excel]",
+    "title" : "Started reading data from Excel",
+    "time" : {
+      "start" : 1558360808888,
+      "stop" : 1558360808888,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Driver Loaded]",
+    "title" : "Driver Loaded",
+    "time" : {
+      "start" : 1558360809066,
+      "stop" : 1558360809066,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Connected to the Database..]",
+    "title" : "Connected to the Database..",
+    "time" : {
+      "start" : 1558360811042,
+      "stop" : 1558360811042,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Query executed successfully]",
+    "title" : "Query executed successfully",
+    "time" : {
+      "start" : 1558360828155,
+      "stop" : 1558360828155,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Expected :AMCN.EVENT.WOP.CREATE.VERSIONS]",
+    "title" : "Expected :AMCN.EVENT.WOP.CREATE.VERSIONS",
+    "time" : {
+      "start" : 1558360835164,
+      "stop" : 1558360835164,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logStep[Actual :AMCN.EVENT.WOP.CREATE.VERSIONS]",
+    "title" : "Actual :AMCN.EVENT.WOP.CREATE.VERSIONS",
+    "time" : {
+      "start" : 1558360835165,
+      "stop" : 1558360835165,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testGroup",
+    "value" : "Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "WOPHierarchyValidationTest"
+  }, {
+    "name" : "feature",
+    "value" : "CMSNV SMOKE"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "story",
+    "value" : "WOP ESB EVENTS"
+  }, {
+    "name" : "thread",
+    "value" : "19912@MONO-HYD-LAP-41.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Test"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-41"
+  }, {
+    "name" : "testClass",
+    "value" : "com.runner.test.TestEvents"
+  } ],
+  "parameters" : [ ]
+}

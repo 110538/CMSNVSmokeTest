@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeSuite;
 
 import com.objects.test.ObjectRepository;
 
-public class CmsApp extends TestBase {
+public class CmsApp extends TestBase{
 	
 	//NonProdPortal nonprod = new NonProdPortal();
 	
@@ -154,9 +154,9 @@ public class CmsApp extends TestBase {
 
 			obr.acknowledgeFileMakerQuit();
 
-			cmsTestBase.logStep("Ackonwledged the file maker ");
+			cmsTestBase.logStep("Acckonwledged the file maker ");
 
-			//logger("Ackonwledged the file maker ");
+			//logger("Acckonwledged the file maker ");
 
 			obr.closingFilemaker();
 
@@ -171,10 +171,10 @@ public class CmsApp extends TestBase {
 			//logger("Closed the file maker main window");
 
 			cmsTestBase.logStep("Waiting some time before fecching ESB events ");
+          
+			System.out.println("Waiting For 1mt to Fetch the ESB Events, API Response and Validation...");
 			
-			System.out.println("Waiting 1mt to Fectching ESB events and API Response & Validation...");
-
-			//logger("Waiting 1mt time to fecching ESB events.... ");
+			//logger("Waiting some time before fecching ESB events ");
 
 			Thread.sleep(60000);
 

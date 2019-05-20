@@ -82,7 +82,7 @@ public class ApiUtil extends TestBase {
 
 			String[] hTypes;
 
-			//logStep("Started executing API Testing");
+			logStep("Started executing API Testing");
 
 			String[] lines;
 
@@ -103,15 +103,15 @@ public class ApiUtil extends TestBase {
 
 				excelUtils.readingExcel(sheetname);
 
-				//logStep("Verify Api Type is Get  or Post");
+				logStep("Verify Api Type is Get  or Post");
 
 				if (excelUtils.excelData[lineNumber][1].toString().equalsIgnoreCase("GET")) {
 
-					//logStep("Given url is Get API continue execution");
+					logStep("Given url is Get API continue execution");
 
 					HttpClient client = HttpClients.createDefault();
 
-					//logStep("Given API is : " + excelUtils.excelData[lineNumber][0]);
+					logStep("Given API is : " + excelUtils.excelData[lineNumber][0]);
 
 					HttpGet request = new HttpGet(excelUtils.excelData[lineNumber][0]);
 
@@ -775,13 +775,13 @@ public class ApiUtil extends TestBase {
 							
 							if (paramText.equals(source)) {
 
-								logStep("CMSNV " + paramName + " [ " + source + " ] is Matched with WOP " + paramName
-										+ " [ " + paramText + " ] ");
+								logStep("CMSNV " + paramName + " ( " + source + " ) is Matched with WOP " + paramName
+										+ " ( " + paramText + " )");
 								//logger("CMSNV " + paramName + " ( " + source + " ) is Matched with WOP " + paramName + " ( "
 								//+ paramText + " )");
 
-								System.out.println("CMSNV " + paramName + " [ " + source + " ] is Matched with WOP "
-										+ paramName + " [ " + paramText + " ] ");
+								System.out.println("CMSNV " + paramName + " ( " + source + " ) is Matched with WOP "
+										+ paramName + " ( " + paramText + " )");
 								break;
 
 							} else {
@@ -790,11 +790,11 @@ public class ApiUtil extends TestBase {
 
 								if (loopcount == SourceParamvalues.size()) {
 
-									logStep("CMSNV " + paramName + " [ " + source + " ] is not Matched with WOP "
-											+ paramName + " [ " + paramText + " ] ");
+									logStep("CMSNV " + paramName + " ( " + source + " ) is not Matched with WOP "
+											+ paramName + " ( " + paramText + " )");
 
-									Assert.fail("CMSNV " + paramName + " [ " + source + " ] is not Matched with WOP "
-											+ paramName + " [ " + paramText + " ] ");
+									Assert.fail("CMSNV " + paramName + " ( " + source + " ) is not Matched with WOP "
+											+ paramName + " ( " + paramText + " )");
 								}
 							}
 						}
@@ -807,14 +807,14 @@ public class ApiUtil extends TestBase {
 
 							if (paramText.equals(source)) {
 
-						logStep("CMSNV " + paramName + " [ " + source + " ] is Matched with MP " + paramName + " [ "
-										+ paramText + " ] ");
+								logStep("CMSNV " + paramName + " ( " + source + " ) is Matched with MP " + paramName + " ( "
+										+ paramText + " )");
 
 								//logger("CMSNV " + paramName + " ( " + source + " ) is Matched with MP " + paramName + " ( "
 								//	+ paramText + " )");
 
-								System.out.println("CMSNV " + paramName + " [ " + source + " ] is Matched with MP "
-										+ paramName + " [ " + paramText + " ] ");
+								System.out.println("CMSNV " + paramName + " ( " + source + " ) is Matched with MP "
+										+ paramName + " ( " + paramText + " )");
 								break;
 
 							} else {
@@ -823,11 +823,11 @@ public class ApiUtil extends TestBase {
 
 								if (loopcount == SourceParamvalues.size()) {
 
-							logStep("CMSNV " + paramName + " [ " + source + " ] is not Matched with MP " + paramName
-											+ " [ " + paramText + " ] ");
+									logStep("CMSNV " + paramName + " ( " + source + " ) is not Matched with MP " + paramName
+											+ " ( " + paramText + " )");
 
-									Assert.fail("CMSNV " + paramName + " [ " + source + " ] is not Matched with MP "
-											+ paramName + " [ " + paramText + " ] ");
+									Assert.fail("CMSNV " + paramName + " ( " + source + " ) is not Matched with MP "
+											+ paramName + " ( " + paramText + " )");
 								}
 							}
 						}

@@ -1,6 +1,8 @@
 package com.testBase.test;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.sikuli.script.Pattern;
@@ -9,7 +11,7 @@ import com.objects.test.ObjectRepository;
 import ru.yandex.qatools.allure.annotations.Step;
 
 public class TestBase {
-
+	
 	public static WebDriver driver;
 	
 	// Generates the Allure Reporting
@@ -49,8 +51,8 @@ public class TestBase {
 
 	}
 
-	
-	
+
+
 	// Reads the Sikuli pictures folder path
 
 	public Pattern fileReaders(String filename) {
@@ -65,7 +67,7 @@ public class TestBase {
 	// Logout From Nonprodportal Application
 	// Closes the Browser
 
-	@AfterSuite(enabled = true)
+	@AfterSuite(enabled = false)
 
 	public void closingbrowser() throws Exception {
 
@@ -79,7 +81,7 @@ public class TestBase {
 
 		// logger("Nonprod portal logged out successfully ");
 
-		closeBrowser();
+		driverClose();
 
 		logStep("Browser is Closed.. ");
 
@@ -88,7 +90,7 @@ public class TestBase {
 
 	// Closes the Driver
 
-	public void closeBrowser() {
+	public void driverClose() {
 
 		driver.close();
 	}
