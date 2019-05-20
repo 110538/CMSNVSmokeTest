@@ -154,9 +154,9 @@ public class CmsApp extends NonProdPortal{
 
 			obr.acknowledgeFileMakerQuit();
 
-			cmsTestBase.logStep("Acckonwledged the file maker ");
+			cmsTestBase.logStep("Ackonwledged the file maker ");
 
-			//logger("Acckonwledged the file maker ");
+			//logger("Ackonwledged the file maker ");
 
 			obr.closingFilemaker();
 
@@ -172,7 +172,7 @@ public class CmsApp extends NonProdPortal{
 
 			cmsTestBase.logStep("Waiting some time before fecching ESB events ");
 
-			//logger("Waiting some time before fecching ESB events ");
+			//logger("Waiting 1mt time to fecching ESB events.... ");
 
 			Thread.sleep(60000);
 
