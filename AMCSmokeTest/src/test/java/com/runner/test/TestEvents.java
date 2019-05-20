@@ -6,14 +6,14 @@ import org.testng.annotations.Test;
 import com.testBase.test.ApiUtil;
 
 import com.testBase.test.CmsApp;
-import com.testBase.test.NonProdPortal;
+import com.testBase.test.TestBase;
 import com.utils.test.Utility;
 
 import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Stories;
 import ru.yandex.qatools.allure.annotations.Title;
 
-public class TestEvents extends NonProdPortal {
+public class TestEvents extends TestBase {
 	
 	
 	CmsApp cmsapp= new CmsApp();
@@ -26,7 +26,7 @@ public class TestEvents extends NonProdPortal {
 
 	public void connectESBDatabaseTest() throws Throwable {
 		
-		cmsapp.puhingRecords();
+		cmsapp.pushingRecords();
 		
 		utility.connectToEsbDatabase();
 
