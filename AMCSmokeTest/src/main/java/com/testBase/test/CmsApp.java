@@ -171,6 +171,8 @@ public class CmsApp extends NonProdPortal{
 			//logger("Closed the file maker main window");
 
 			cmsTestBase.logStep("Waiting some time before fecching ESB events ");
+			
+			System.out.println("Waiting 1mt to Fectching ESB events and API Response & Validation...");
 
 			//logger("Waiting 1mt time to fecching ESB events.... ");
 
