@@ -8,8 +8,10 @@ import org.testng.annotations.AfterSuite;
 import com.objects.test.ObjectRepository;
 import ru.yandex.qatools.allure.annotations.Step;
 
-public class TestBase extends NonProdPortal {
+public class TestBase {
 
+	public static WebDriver driver;
+	
 	// Generates the Allure Reporting
 
 	@Step("{0}")
@@ -28,6 +30,27 @@ public class TestBase extends NonProdPortal {
 
 	}
 
+	// Browser Launching
+	// Hits the nonprodportal.amcnetworks.com
+
+	public WebDriver nonProdPortalLaunch() {
+
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\Drivers\\chromedriver.exe");
+
+		driver = new ChromeDriver();
+
+		driver.manage().window().maximize();
+
+		driver.get("https://nonprodportal.amcnetworks.com/Citrix/AppsWeb/");
+
+		System.out.println(driver);
+
+		return driver;
+
+	}
+
+	
+	
 	// Reads the Sikuli pictures folder path
 
 	public Pattern fileReaders(String filename) {
@@ -42,7 +65,7 @@ public class TestBase extends NonProdPortal {
 	// Logout From Nonprodportal Application
 	// Closes the Browser
 
-	@AfterSuite(enabled = false)
+	@AfterSuite(enabled = true)
 
 	public void closingbrowser() throws Exception {
 
@@ -56,7 +79,7 @@ public class TestBase extends NonProdPortal {
 
 		// logger("Nonprod portal logged out successfully ");
 
-		browserClose();
+		closeBrowser();
 
 		logStep("Browser is Closed.. ");
 
@@ -65,7 +88,7 @@ public class TestBase extends NonProdPortal {
 
 	// Closes the Driver
 
-	public void browserClose() {
+	public void closeBrowser() {
 
 		driver.close();
 	}
