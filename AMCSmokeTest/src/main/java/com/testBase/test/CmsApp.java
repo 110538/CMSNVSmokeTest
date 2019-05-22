@@ -164,9 +164,9 @@ public class CmsApp extends TestBase{
 
 			//logger("Closed the file maker");
 
-			obr.closingMainWindowFileMaker();
+			//obr.closingMainWindowFileMaker();
 
-			cmsTestBase.logStep("Closed the file maker main window");
+			//cmsTestBase.logStep("Closed the file maker main window");
 
 			//logger("Closed the file maker main window");
 
