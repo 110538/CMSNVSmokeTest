@@ -154,7 +154,7 @@ public class CmsApp extends TestBase{
 
 			obr.acknowledgeFileMakerQuit();
 
-			cmsTestBase.logStep("Acckonwledged the file maker ");
+			cmsTestBase.logStep("Acknowledged the file maker ");
 
 			//logger("Acckonwledged the file maker ");
 
@@ -170,9 +170,9 @@ public class CmsApp extends TestBase{
 
 			//logger("Closed the file maker main window");
 
-			cmsTestBase.logStep("Waiting some time before fecching ESB events ");
+			cmsTestBase.logStep("Waiting For 1mt before fecching ESB Events, API Response and Validation... ");
           
-			System.out.println("Waiting For 1mt to Fetch the ESB Events, API Response and Validation...");
+			System.out.println("Waiting For 1mt before Fetch the ESB Events, API Response and Validation...");
 			
 			//logger("Waiting some time before fecching ESB events ");
 
