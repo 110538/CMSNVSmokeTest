@@ -103,15 +103,15 @@ public class ApiUtil extends TestBase {
 
 				excelUtils.readingExcel(sheetname);
 
-				logStep("Verify Api Type is Get  or Post");
+				//logStep("Verify Api Type is Get  or Post");
 
 				if (excelUtils.excelData[lineNumber][1].toString().equalsIgnoreCase("GET")) {
 
-					logStep("Given url is Get API continue execution");
+					//logStep("Given url is Get API continue execution");
 
 					HttpClient client = HttpClients.createDefault();
 
-					logStep("Given API is : " + excelUtils.excelData[lineNumber][0]);
+					//logStep("Given API is : " + excelUtils.excelData[lineNumber][0]);
 
 					HttpGet request = new HttpGet(excelUtils.excelData[lineNumber][0]);
 
