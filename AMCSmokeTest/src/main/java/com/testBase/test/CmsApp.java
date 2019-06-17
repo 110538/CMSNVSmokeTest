@@ -47,7 +47,7 @@ public class CmsApp extends TestBase{
 
 		obr.openCitrixLancher();
 
-		cmsTestBase.logStep("Closed the Citrix Launcher");
+		//cmsTestBase.logStep("Closed the Citrix Launcher");
 
 		//logger("Closed the Citrix Launcher");
 
